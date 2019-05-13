@@ -1,0 +1,179 @@
+ <!DOCTYPE html>
+ <html lang = "en">
+ <head> 
+    <title> Images </title>
+    <meta charset = "utf-8" />
+<link rel="stylesheet" href="https://favlink.herokuapp.com/stylesheets/style.css">
+</head>
+<body onresize="reposition()">
+<script src="https://favlink.herokuapp.com/javascripts/toolbox.js"></script>
+<script src="https://favlink.herokuapp.com/javascripts/NavigationBar.js"></script>
+<script>
+var dir = "https://raw.githubusercontent.com/21714487/pictures/master/";
+body = document.body;
+    var arrowWidth = 80;
+    var arrowLeftMin = 40;
+    var backImageTop = 50;
+	var buttonheight = 45;
+lef = img(dir + "buttons/left.png");
+right = img(dir + "buttons/right.png");
+    var bn = 0;
+    var fn = 0;
+    var xfore = 0;
+    var yfore = 0;
+	var toggleForegroundImages = false;
+	var leftpressed = false;
+back = img(backloc(bn));
+	var backon = false;
+	var imageWaitTime = 1000;
+fore = img(foreloc(fn));
+applyFore = button(dir + "buttons/yellow.PNG","Switch Foreground Images","toggleFores()");applyFore.hide(true);
+im = img(dir + "buttons/start.png","background(0)");
+im.style.left = "100px";
+im.style.top = "100px";
+im.style.width = "500px";
+im.style.height = "500px";
+body.appendChild(im);
+function backloc(n){
+    return dir + "backgrounds/"+n+".jpg"
+}
+function foreloc(n){
+    return dir + "foregrounds/"+n+".png"
+}
+
+function pause(numberMillis) { 
+    var now = new Date().getTime(); 
+    var exitTime = now + numberMillis; 
+    while (now < exitTime){
+		var diff = exitTime-now;
+		console.log("Waiting for "+diff+" ms");//button(dir + "buttons/yellow.PNG","Waiting for "+diff+" ms",document.body,100,100,1000,1000,10);
+        now = new Date();
+	}		
+} 
+function background(n){
+	backon = true;
+	bn = bn + n;
+	im.style.visibility = "hidden";
+	back.style.visibility = "hidden";
+    back = img(backloc(bn));
+	back.style.visibility = "visible";
+	body.appendChild(back);
+	body.appendChild(lef);
+    body.appendChild(right);
+	back.style.top = backImageTop+"px";
+	var ratio = back.naturalWidth/back.naturalHeight;
+	if(isNaN(ratio)){
+		pause(imageWaitTime);
+		ratio = back.naturalWidth/back.naturalHeight
+	}
+    if(ratio>1){
+        back.style.left = arrowWidth+arrowLeftMin+"px";
+        var w = window.innerWidth-2*(arrowLeftMin+arrowWidth);
+        back.style.width=w+"px";
+        back.style.height = w/ratio+"px";
+    }
+    else{
+        var h = window.innerHeight - 2*backImageTop;
+        back.style.height = h+"px";
+        back.style.width = h*ratio+"px";
+        var l = (window.innerWidth-h*ratio)/2
+        back.style.left = l+"px";
+    }
+	applyFore.hide(false);
+	foreground(0);
+	doFores(toggleForegroundImages);
+}
+function doFores(isFore){
+	if(isFore){
+		lef.setAttribute("onclick","foreground(-1);leftpressed=true;");
+		right.setAttribute("onclick","foreground(1);leftpressed=false;");
+	}
+	else{
+		lef.setAttribute("onclick","background(-1);leftpressed=true;");
+		right.setAttribute("onclick","background(1);leftpressed=false;");
+	}
+	back.style.zIndex = 0;
+	fore.style.zIndex = 1;
+	var x = parseFloat(back.style.left);
+	var w = parseFloat(back.style.width);
+	var h = parseFloat(back.style.height);
+	applyFore.left(x);
+	applyFore.width(w);
+	applyFore.top(backImageTop+h);
+	applyFore.height(buttonheight);
+	lef.style.left = (x-arrowWidth) + "px";
+	right.style.left = (x+w)+"px";
+	lef.style.width = arrowWidth+"px";
+	right.style.width = arrowWidth+"px";
+	lef.style.height = h/2+"px";
+    right.style.height = h/2+"px";
+    lef.style.top = backImageTop+h/4+"px";
+    right.style.top = lef.style.top;
+}
+		
+function toggleFores(){
+	if(toggleForegroundImages){
+		applyFore.caption("Switch Foreground Images");
+		toggleForegroundImages = false;
+		doFores(false);
+	} else {
+		applyFore.caption("Switch Background Images");
+		toggleForegroundImages = true;
+		doFores(true);
+	}
+}
+function foreground(n){
+	fn= fn + n;
+	fore.style.visibility = "hidden";
+    fore=img(foreloc(fn));
+	fore.style.visibility = "visible";
+	body.appendChild(fore);
+	var ratio = fore.naturalWidth/fore.naturalHeight;
+	if(isNaN(ratio)){
+		pause(imageWaitTime);
+		ratio = fore.naturalWidth/fore.naturalHeight
+	}
+    fore.style.top = parseFloat(back.style.top)+xfore+"px";
+    fore.style.left = parseFloat(back.style.left)+yfore+"px";
+	var w = parseFloat(back.style.width);
+	var h = parseFloat(back.style.height);
+    if(ratio>1){
+        fore.style.width = w +"px";
+        fore.style.height = w/ratio + "px";
+    }
+    else{
+        fore.style.height = h+"px";
+        fore.style.width = h*ratio+"px";
+    }
+}
+function get(n,str){
+	if(arguments.length<2)str="Variable"
+	if(isNaN(n)){
+		console.log(str+" is not a number\n");
+	}
+	console.log(str+" = "+n);
+	return n;
+}	
+function ispic(image_url){
+    var http = new XMLHttpRequest();
+    http.open('HEAD', image_url, false);
+    http.send();
+    return http.status != 404;
+}
+function reposition(){
+	if(backon){
+		background(0);
+		foreground(0);
+	}
+}
+function disp(){
+	var ans = "[0]: " + arguments[0] + "\n";
+	for(i=1;i<arguments.length;i++)
+		ans+="["+i+"]: "+ arguments[i]+"\n";
+	console.log(ans);
+	return arguments[0];
+}
+</script>
+
+</body>
+</html>

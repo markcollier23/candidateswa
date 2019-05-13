@@ -49,6 +49,7 @@ function button(im,txt,func,t,l,w,h,z){
 
 function img(source,func){
 	var i = new Image();
+	document.body.appendChild(i);
 	i.src = source;
 	if(arguments.length>1)
 		i.setAttribute("onclick",func);

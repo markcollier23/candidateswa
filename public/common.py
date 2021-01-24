@@ -105,7 +105,7 @@ def assertEquals(expected, actual, message=""):
     print("        ",actual)
     return expected
 
-def get_table(FileName='C:/run.csv', Splitter=','):
+def table(FileName='C:/run.csv', Splitter=','):
     """
     Return a 2D array from reading a file
     fileName = 'single.txt' will look in current directory

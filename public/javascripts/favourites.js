@@ -6,6 +6,6 @@ churchlands.style.top = "250px"
 wanneroo=img("https://candidateswa.herokuapp.com/WA2021/Legislative Assembly/wanneroo.png",url("https://candidateswa.herokuapp.com/WA2021/Legislative Assembly/wanneroo.png"));
 wanneroo.style.top = "450px";
 council = img("https://candidateswa.herokuapp.com/WA2021/Legislative Council/name.png");
-council.style.top = "700px";
+council.style.top = "680px";
 north=img("https://candidateswa.herokuapp.com/WA2021/Legislative Council/North Metro.png",url("https://candidateswa.herokuapp.com/WA2021/Legislative Council/North Metro.html"));
 north.style.top = "800px";

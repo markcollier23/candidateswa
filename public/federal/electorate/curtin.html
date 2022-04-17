@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+ul{
+  list-style-type: none;
+}
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);
+}
+.nested {
+  display: none;
+}
+.active {
+  display: block;
+}
+    </style>
+</head>
+<body>
+
+<h1>Candidates for Curtin in the 2022 Federal Election</h1>
+<p>
+    Your choice for this election is a choice that will shape the future for Australia.<br>
+    It is important to select each individual candidate that would deliver the best policies for the country.<br>
+    I have researched every candidate and documented their party policies below.<br>
+    When I decide on the order of my vote, I'm not just voting for a leader or a candidate but I am voting for the political party as a whole.<br>
+    After fully researching each party policy I would then take into consideration the quality of the candidate and the quality of the leader.<br>
+    The reason for this is that the candidate who is elected will have some degree of influence over the leader and vice versa.<br>
+    I have outlined a summary for each candidate/political party below.<br> 
+    Each of the statements and claims made here have supporting documentation and references. See Lengend for more details.<br><br><br>
+    Legend:<br>
+    - [BIO]: This a link to the individual personal qualities as a candidate.<br>
+    - [REF]: This contains information and research specifically about the political party (Reference to the source of info is provided).<br>
+    - [BILLS]: These contain the bills that elected political parties have voted for in the past.<br>
+    I have made the verdict for the candidates in the Curtin electorate as per below:
+</p>
+<ul>
+    <li>
+        <span class="caret">(1 or 2): Cameron Pidgeon (Greens)</span>
+        <ul class="nested">
+            [<a href="https://drive.google.com/file/d/1GjCaKOWlQwzfUTQmqq2hctvYG2SU-iDh/view?usp=sharing" target="_blank">REF</a>]
+            [<a href="https://drive.google.com/open?id=18XFcyYEMzwozaqiK3O-TKi-QWnCjAp63" target="_blank">PIC</a>]
+            [<a href="https://candidateswa.herokuapp.com/legislation/Green.html" target="_blank">BILLS</a>]<br>
+            This party has made excellent use of evidence based scientific research to develop it's policies.<br>
+            They have developed the policies to kick-start manufacturing in Australia, to improve the quality and profitability of local farms, to take a preventative approach to tackle the rising cost of Hospitals and Health Care Cover, to improve the quality of Education that will ensure people can access the necessary skills and qualifications for the workforce.<br>
+            They have pushed the government to pass their policies to transition redundant workers in mining, coal, oil and gas so that they develop the necessary skills to work in the industries such as renewable energy, battery storage, technology and recycling.<br>
+        </ul>
+    </li>
+    <li>
+        <span class="caret">(1 or 2): Kate Chaney (Independent)</span>
+        <ul class="nested">
+            [<a href="https://drive.google.com/open?id=1hdUNegiR_0eqxMXQIc8JbcxFuV37b7zy" target="_blank">REF</a>]
+            [<a href="https://drive.google.com/open?id=1xDBOKPVWVx_WxQPoMjPMZYhOrCzG3vLQ" target="_blank">PIC</a>]
+            <br>Kate Chaney wants to accelerate innovation and training to build the renewables industry and transition to a net-zero emissions economy for our children.<br>
+            <br>She would like to create jobs by investing in renewable energy and storage.<br>
+            <br>She believes we need to electrify our economy with clean energy, electric vehicles and batteries and energy efficiency.<br>
+            <br>She will like to build a more accountable and transparent culture in Canberra and to restore public confidence in the administration of government and decision making.<br>
+        </ul>
+    </li>
+    <li>
+    <span class="caret">3. Yannick Spencer (Labor Party)</span>
+    <ul class="nested">
+        [<a href="https://drive.google.com/open?id=1CWsf22S5oQgSOZr3ru8B-B6XklTVvGBI" target="_blank">REF</a>]
+        [<a href="https://drive.google.com/open?id=1kC4qkXhp2uskU194OUjjtLlkczFQ3uuv" target="_blank">PIC</a>]
+        [<a href="https://candidateswa.herokuapp.com/legislation/Labor.html" target="_blank">BILLS</a>]<br>
+        This party is looking to lower taxes for 9 million Australians.
+      </ul>
+    </li>
+    <li>
+    <span class="caret">4. Celia Hammond (Liberal party)</span>
+    <ul class="nested">
+        [<a href="https://drive.google.com/open?id=10Q-cY5cdDp2-7joSs20aAW49JBWzDCJU" target="_blank">REF</a>]
+        [<a href="https://drive.google.com/open?id=18AHM64PIX3PScBsf8H3sOk_ooPFzbuGB" target="_blank">PIC</a>]<br>
+        This polital party is being led Scott Morrison who is accused of being "an autocrat and bully" by Liberal senator Concetta Fierravanti-Wells.<br>
+        The Liberal party have used threats and other tactics to repeal legislation called Medevac which required the government to provide proper healthcare to asylum seekers.<br>
+        Under the Liberal party government, torture and beatings have been able to continue against asylum seekers in detention centres.<br>
+        
+    </ul>
+    </li>
+    <li>
+    <span class="caret">5. Ladeisha Verhoeff (United Australia Party)</span>
+    <ul class="nested">
+        [<a href="https://drive.google.com/open?id=1G1l9Ot6j0Y0yifk24o5T844iW2vjgdbt" target="_blank">REF</a>]<br>
+        This political party will scrap nearly all public health measures due to the COVID-19 pandemic.<br>
+        If another pandemic occurs, Australia would be in a serious disaster under this political party.<br>
+        It is not worth the risk and it is not worth allowing all these deaths to occur in the Australian community.
+    </li>
+</ul>
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
+</body>
+</html>

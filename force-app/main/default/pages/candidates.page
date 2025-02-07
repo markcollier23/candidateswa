@@ -1,0 +1,126 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+<html>
+<head>
+    <style>
+ul{
+  list-style-type: none;
+}
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg);  
+}
+.nested {
+  display: none;
+}
+.active {
+  display: block;
+}
+    </style>
+</head>
+<body>
+
+<h2>Western Australia Senate Canditates for 2022 Federal Election</h2><br></br>
+<a href="https://wise-hawk-7achi1-dev-ed.my.salesforce-sites.com/candidates/resource/1738474105000/churchlands?">Churchlands</a>
+<p>
+    Your choice for this election is a choice that will shape the future for Australia.<br></br>
+    It is important to select each individual candidate that would deliver the best policies for the country.<br></br>
+    I have researched every candidate and documented their party policies below.<br></br>
+    When I decide on the order of my vote, I'm not just voting for a leader or a candidate but I am voting for the political party as a whole.<br></br>
+    After fully researching each party policy I would then take into consideration the quality of the candidate and the quality of the leader.<br></br>
+    The reason for this is that the candidate who is elected will have some degree of influence over the leader and vice versa.<br></br>
+    I have outlined a summary for each candidate/political party below.<br></br> 
+</p>
+    <li>
+        <span class="caret"><a href="https://candidateswa.herokuapp.com/federal/party/Green.html">Greens</a></span>
+        <ul class="nested">
+            This party has made excellent use of evidence based scientific research to develop it's policies.<br></br>
+            They have developed the policies to kick-start manufacturing in Australia, to improve the quality and profitability of local farms, to take a preventative approach to tackle the rising cost of Hospitals and Health Care Cover, to improve the quality of Education that will ensure people can access the necessary skills and qualifications for the workforce.<br></br>
+            They want to develop transition programs to assist fossil fuel-dependent communities in quality training and career development.<br></br>
+            They want to provide a rapid rollout of smart technology, including metres, appliances, grids and energy storage, with measures to reduce the financial impact on people with low or fixed incomes.<br></br>
+            For those who are working in the mining industry and are being made redundant, they would like to help them transition into mining sectors which extract rare earth metals and materials which are vital for the renewable energy sector.
+        </ul>
+        <ul>
+            <li>
+                <span class="caret">
+                1: <a href="https://greens.org.au/wa/person/dorinda-cox" target="_blank">Dorinda Cox</a>
+                </span>
+                <ul class="nested">
+                    Dorinda has over 20 years experience working in government and non-government sectors and has made significant contributions to policy and advocacy in the areas of domestic violence, child protection and Aboriginal Justice.<br></br>
+                    Dorinda joined as a Police cadet at the age of 17 until the age of 19 as an Aboriginal Police Liaison Officer for the WA Police in both Perth and Kalgoorlie working in the frontline and specialising in family violence and sexual assault.<br></br> 
+                    She worked in the non-government and government sectors and was an Australian Government representative on several delegations on gender equality at the United Nations Commission for the Status of Women in New York at the Asia-Pacific Economic Co-operation in Peru and also UN Economic and Social Commission for Asia and the Pacific in Thailand.  
+                </ul>
+            </li>
+            <li>
+                <span class="caret">
+                2: <a href="https://greens.org.au/wa/person/river-clarke-0" target="_blank">River Clark</a>
+                </span>
+                <ul class="nested">
+                    A volunteer for local groups accross the community.
+                </ul>
+            </li>
+            <li>
+                <span class="caret">
+                3: <a href="https://au.linkedin.com/in/thewallaceisin" target="_blank">Alex Wallace</a>
+                </span>
+                <ul class="nested">
+                    Communications and Engagement Officer.
+                </ul>
+            </li>
+            <li>
+                <span class="caret">
+                4: <a href="https://campusnews.murdoch.edu.au/local-campus-news/the-murdoch-university-student-running-for-federal-parliament/" target="_blank">Jordan Cahill</a>
+                </span>
+                <ul class="nested">
+                    University student.
+                </ul>
+            </li>
+            <li>
+                <span class="caret">
+                5: <a href="https://www.facebook.com/permalink.php?story_fbid=356175335745409&id=103562417673370&comment_id=356201245742818" target="_blank">Simone Collins</a>
+                </span>
+                <ul class="nested">
+                    A musician.
+                </ul>
+            </li>
+            <li>
+                <span class="caret">
+                6: <a href="https://greens.org.au/wa/person/donald-clarke-0" target="_blank">Donald Clark</a>
+                </span>
+                <ul class="nested">
+                    
+                </ul>
+            </li>
+        </ul>
+    </li>
+    
+
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
+
+</body>
+</html>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+ul{
+  list-style-type: none;
+}
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);
+}
+.nested {
+  display: none;
+}
+.active {
+  display: block;
+}
+    </style>
+</head>
+<body>
+
+<h1>Candidates for Churchlands in the 2021 WA State Election</h1>
+<p>
+  Your choice for this election is a choice that will shape the future for Western Australia.<br>
+  Western Australia is lucky to have a fantastic government currently in place but it does need improvement, diversity and accountability.<br>
+  Western Australia needs to have political parties in parliament that are strong and stable and won't use and abuse their power.<br>
+  To keep a government strong, they need to know there is potentially other effective people surrounding them that have high expectations and expect the best for WA.<br>
+  They do not need people who are ready to undermine or attack positive and effective policies of government.<br>
+  Whilst all parties would love to have total control, it is important that there are other political parties and candidates in parliament that will help strengthen and support the governing party with any critical policies to protect the state whilst also keeping them in line or in check for any measure that could abuse their power.<br>
+  I have researched every candidate and have provided references to their policies and statements.<br>
+  This election, your vote WILL NOT be counted if you do not number every single candidate.<br>
+  The list of candidates are available below:<br>
+</p>
+<ul>
+    <li>
+        <span class="caret">1: <a href="https://www.lisathornton.com.au/key-priorities" target="_blank"></a>Lisa Thorton</a> (Independent)</span>
+        <ul class="nested">
+          Lisa Thorton is committed to tacking the critical issues facing Western Australia today. <br>
+          She is committed to restoring integrity, professional development and transparency in politics.<br>
+          She aims to pursue community based incentives and initiatives which bring ebullient outcomes for local residents.<br>
+          She is free to represent the community’s interests and not the interests of political backers or corporate sponsors.<br>
+          She will will pursue a balanced, evidence based scientific approach when it comes to tackling the major issues.
+      </ul>
+    </li>
+
+    <li>
+      <span class="caret">2. Caroline McLean (<a href="https://docs.google.com/document/d/1Y4aVfsO7DrY1eO0sFD3RQ7nQzt43IZdX/" target="_blank">Greens</a>)</span>
+      <ul class="nested">
+        This party has made excellent use of scientific research to develop it's policies.<br>
+        They have constructed a well thought out plan to transition towards Green Energy future.<br>
+        This party is aware and active of all the surrounding issues that are involved in pushing ahead through it's plans.<br>
+      </ul>
+    </li>
+    <li>
+        <span class="caret">3. Christine Tonkin (<a href="https://docs.google.com/document/d/19Lu44ROqdZkEQXS6BLJgnWUfLggTwC-p/view" target="_blank">Labor</a>)</span>
+        <ul class="nested">
+        This political party is heavily funded by Corporations ($1.8 Million) and Unions ($0.6 Million). <br>
+        It is very difficult for an individual to not be obsequious to this power and influence especially when this party had allowed criminal charges to be laid on bus drivers who brought nurses to a protest entreating a 5% pay rise.<br>
+        This party has a clear plan to support the growth of the state economy and has a strong vision for the future of the state.<br>
+        WA Labor has been actively encouraging companies to establish operations in Western Australia and has been providing reasonable incentives to attract new industries that will provide economic benefits to the state.<br>
+        </ul>
+    </li>
+    <li>
+      <span class="caret">4. Basil Zempilas (<a href="https://docs.google.com/document/d/1kOGcvb5paTKv0p_RkpyoCobQ2gK-LQ6E/edit" target="_blank">Liberal</a>)</span>
+      <ul class="nested">
+        This party is funded by Corporations ($1.1 Million) and hasn't got much detail about its <a href="https://www.waliberal.org.au/our-beliefs/">policies within their website</a>.<br>
+        Basil has directly spoken about how he wants to tackle homelessness with this statement: <br>
+        "I make no apologies for this, the homeless need to be moved out of the Hay and Murray street malls and the surrounding areas... Forcibly, if that's what it takes." <br>
+        Basil has also stated his definition of a man and women per below:<br>
+        "If you've got a penis mate, you're a bloke. If you've got a vagina, you're a woman. Game over."<br>
+        He is also involved with the right wing side of his party and their branch stacking agendas.
+      </ul>
+    </li>
+</ul>
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
+</body>
+</html>

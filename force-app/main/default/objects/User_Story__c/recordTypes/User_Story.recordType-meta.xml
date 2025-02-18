@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Story</fullName>
+    <active>true</active>
+    <label>User Story</label>
+    <picklistValues>
+        <picklist>Assigned_To__c</picklist>
+        <values>
+            <fullName>Business Analyst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Manager</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Solution Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subject Matter Expert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test Architect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Acceptance Criteria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Do</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Unit Test</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

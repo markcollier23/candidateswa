@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AI Live Metric Definition</fullName>
+        <default>false</default>
+        <label>AI Live Metric Definition</label>
+    </customValue>
+    <customValue>
+        <fullName>Action</fullName>
+        <default>false</default>
+        <label>Action</label>
+    </customValue>
+    <customValue>
+        <fullName>Action Link Group Template</fullName>
+        <default>false</default>
+        <label>Action Link Group Template</label>
+    </customValue>
+    <customValue>
+        <fullName>Action Plan Template</fullName>
+        <default>false</default>
+        <label>Action Plan Template</label>
+    </customValue>
+    <customValue>
+        <fullName>Apex Class</fullName>
+        <default>false</default>
+        <label>Apex Class</label>
+    </customValue>
+    <customValue>
+        <fullName>Apex Sharing Reason</fullName>
+        <default>false</default>
+        <label>Apex Sharing Reason</label>
+    </customValue>
+    <customValue>
+        <fullName>Apex Trigger</fullName>
+        <default>false</default>
+        <label>Apex Trigger</label>
+    </customValue>
+    <customValue>
+        <fullName>App</fullName>
+        <default>false</default>
+        <label>App</label>
+    </customValue>
+    <customValue>
+        <fullName>Article Type</fullName>
+        <default>false</default>
+        <label>Article Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Asset File</fullName>
+        <default>false</default>
+        <label>Asset File</label>
+    </customValue>
+    <customValue>
+        <fullName>Assistant Recommendation Type</fullName>
+        <default>false</default>
+        <label>Assistant Recommendation Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Aura Component Bundle</fullName>
+        <default>false</default>
+        <label>Aura Component Bundle</label>
+    </customValue>
+    <customValue>
+        <fullName>Bot</fullName>
+        <default>false</default>
+        <label>Bot</label>
+    </customValue>
+    <customValue>
+        <fullName>Button or Link</fullName>
+        <default>false</default>
+        <label>Button or Link</label>
+    </customValue>
+    <customValue>
+        <fullName>CORS Whitelist Origin</fullName>
+        <default>false</default>
+        <label>CORS Whitelist Origin</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Center</fullName>
+        <default>false</default>
+        <label>Call Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Channel Menu Deployment</fullName>
+        <default>false</default>
+        <label>Channel Menu Deployment</label>
+    </customValue>
+    <customValue>
+        <fullName>Chat Blocking Rule</fullName>
+        <default>false</default>
+        <label>Chat Blocking Rule</label>
+    </customValue>
+    <customValue>
+        <fullName>Chatter Extension</fullName>
+        <default>false</default>
+        <label>Chatter Extension</label>
+    </customValue>
+    <customValue>
+        <fullName>Classic Letterhead</fullName>
+        <default>false</default>
+        <label>Classic Letterhead</label>
+    </customValue>
+    <customValue>
+        <fullName>Communication Channel Layout</fullName>
+        <default>false</default>
+        <label>Communication Channel Layout</label>
+    </customValue>
+    <customValue>
+        <fullName>Compact Layout</fullName>
+        <default>false</default>
+        <label>Compact Layout</label>
+    </customValue>
+    <customValue>
+        <fullName>Content Security Policy Trusted Site</fullName>
+        <default>false</default>
+        <label>Content Security Policy Trusted Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Console Component</fullName>
+        <default>false</default>
+        <label>Custom Console Component</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Data Type</fullName>
+        <default>false</default>
+        <label>Custom Data Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Field</fullName>
+        <default>false</default>
+        <label>Custom Field</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Help Menu Section</fullName>
+        <default>false</default>
+        <label>Custom Help Menu Section</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Metadata Type</fullName>
+        <default>false</default>
+        <label>Custom Metadata Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Notification Type</fullName>
+        <default>false</default>
+        <label>Custom Notification Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Object</fullName>
+        <default>false</default>
+        <label>Custom Object</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Permission</fullName>
+        <default>false</default>
+        <label>Custom Permission</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Report Type</fullName>
+        <default>false</default>
+        <label>Custom Report Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Setting</fullName>
+        <default>false</default>
+        <label>Custom Setting</label>
+    </customValue>
+    <customValue>
+        <fullName>Dashboard</fullName>
+        <default>false</default>
+        <label>Dashboard</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Service</fullName>
+        <default>false</default>
+        <label>Data Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Document</fullName>
+        <default>false</default>
+        <label>Document</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Rule</fullName>
+        <default>false</default>
+        <label>Duplicate Rule</label>
+    </customValue>
+    <customValue>
+        <fullName>EclairNG Map GeoJson</fullName>
+        <default>false</default>
+        <label>EclairNG Map GeoJson</label>
+    </customValue>
+    <customValue>
+        <fullName>Einstein Intent Set</fullName>
+        <default>false</default>
+        <label>Einstein Intent Set</label>
+    </customValue>
+    <customValue>
+        <fullName>Email Service</fullName>
+        <default>false</default>
+        <label>Email Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Email Template</fullName>
+        <default>false</default>
+        <label>Email Template</label>
+    </customValue>
+    <customValue>
+        <fullName>Embedded Service Deployment</fullName>
+        <default>false</default>
+        <label>Embedded Service Deployment</label>
+    </customValue>
+    <customValue>
+        <fullName>Event Subscription</fullName>
+        <default>false</default>
+        <label>Event Subscription</label>
+    </customValue>
+    <customValue>
+        <fullName>External Data Source</fullName>
+        <default>false</default>
+        <label>External Data Source</label>
+    </customValue>
+    <customValue>
+        <fullName>External Service Registration</fullName>
+        <default>false</default>
+        <label>External Service Registration</label>
+    </customValue>
+    <customValue>
+        <fullName>Field Mapping</fullName>
+        <default>false</default>
+        <label>Field Mapping</label>
+    </customValue>
+    <customValue>
+        <fullName>Field Set</fullName>
+        <default>false</default>
+        <label>Field Set</label>
+    </customValue>
+    <customValue>
+        <fullName>Flow Definition</fullName>
+        <default>false</default>
+        <label>Flow Definition</label>
+    </customValue>
+    <customValue>
+        <fullName>Folder</fullName>
+        <default>false</default>
+        <label>Folder</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Value Set</fullName>
+        <default>false</default>
+        <label>Global Value Set</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Page Component</fullName>
+        <default>false</default>
+        <label>Home Page Component</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Page Layout</fullName>
+        <default>false</default>
+        <label>Home Page Layout</label>
+    </customValue>
+    <customValue>
+        <fullName>Knowledge Action</fullName>
+        <default>false</default>
+        <label>Knowledge Action</label>
+    </customValue>
+    <customValue>
+        <fullName>Language Translation</fullName>
+        <default>false</default>
+        <label>Language Translation</label>
+    </customValue>
+    <customValue>
+        <fullName>Lightning Bolt</fullName>
+        <default>false</default>
+        <label>Lightning Bolt</label>
+    </customValue>
+    <customValue>
+        <fullName>Lightning Community Template</fullName>
+        <default>false</default>
+        <label>Lightning Community Template</label>
+    </customValue>
+    <customValue>
+        <fullName>Lightning Community Theme</fullName>
+        <default>false</default>
+        <label>Lightning Community Theme</label>
+    </customValue>
+    <customValue>
+        <fullName>Lightning Experience Theme</fullName>
+        <default>false</default>
+        <label>Lightning Experience Theme</label>
+    </customValue>
+    <customValue>
+        <fullName>Lightning Message Channel</fullName>
+        <default>false</default>
+        <label>Lightning Message Channel</label>
+    </customValue>
+    <customValue>
+        <fullName>Lightning Page</fullName>
+        <default>false</default>
+        <label>Lightning Page</label>
+    </customValue>
+    <customValue>
+        <fullName>Lightning Web Component Bundle</fullName>
+        <default>false</default>
+        <label>Lightning Web Component Bundle</label>
+    </customValue>
+    <customValue>
+        <fullName>List View</fullName>
+        <default>false</default>
+        <label>List View</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Content Type</fullName>
+        <default>false</default>
+        <label>Managed Content Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Matching Rule</fullName>
+        <default>false</default>
+        <label>Matching Rule</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft® Outlook® Web App Domain</fullName>
+        <default>false</default>
+        <label>Microsoft® Outlook® Web App Domain</label>
+    </customValue>
+    <customValue>
+        <fullName>Named Credential</fullName>
+        <default>false</default>
+        <label>Named Credential</label>
+    </customValue>
+    <customValue>
+        <fullName>Page Layout</fullName>
+        <default>false</default>
+        <label>Page Layout</label>
+    </customValue>
+    <customValue>
+        <fullName>Path Assistant</fullName>
+        <default>false</default>
+        <label>Path Assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>Permission Set</fullName>
+        <default>false</default>
+        <label>Permission Set</label>
+    </customValue>
+    <customValue>
+        <fullName>Permission Set Group</fullName>
+        <default>false</default>
+        <label>Permission Set Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Platform Cache Partition</fullName>
+        <default>false</default>
+        <label>Platform Cache Partition</label>
+    </customValue>
+    <customValue>
+        <fullName>Platform Event Channel</fullName>
+        <default>false</default>
+        <label>Platform Event Channel</label>
+    </customValue>
+    <customValue>
+        <fullName>Platform Event Channel Member</fullName>
+        <default>false</default>
+        <label>Platform Event Channel Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Profile Settings</fullName>
+        <default>false</default>
+        <label>Profile Settings</label>
+    </customValue>
+    <customValue>
+        <fullName>Prompt</fullName>
+        <default>false</default>
+        <label>Prompt</label>
+    </customValue>
+    <customValue>
+        <fullName>Recommendation Strategy</fullName>
+        <default>false</default>
+        <label>Recommendation Strategy</label>
+    </customValue>
+    <customValue>
+        <fullName>Record Type</fullName>
+        <default>false</default>
+        <label>Record Type</label>
+    </customValue>
+    <customValue>
+        <fullName>RecordAction Deployment</fullName>
+        <default>false</default>
+        <label>RecordAction Deployment</label>
+    </customValue>
+    <customValue>
+        <fullName>Remote Site</fullName>
+        <default>false</default>
+        <label>Remote Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Report</fullName>
+        <default>false</default>
+        <label>Report</label>
+    </customValue>
+    <customValue>
+        <fullName>Reporting Snapshot</fullName>
+        <default>false</default>
+        <label>Reporting Snapshot</label>
+    </customValue>
+    <customValue>
+        <fullName>S-Control</fullName>
+        <default>false</default>
+        <label>S-Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Security Custom Baseline</fullName>
+        <default>false</default>
+        <label>Security Custom Baseline</label>
+    </customValue>
+    <customValue>
+        <fullName>Send Action</fullName>
+        <default>false</default>
+        <label>Send Action</label>
+    </customValue>
+    <customValue>
+        <fullName>Sensitive Data Rule</fullName>
+        <default>false</default>
+        <label>Sensitive Data Rule</label>
+    </customValue>
+    <customValue>
+        <fullName>Sharing Set</fullName>
+        <default>false</default>
+        <label>Sharing Set</label>
+    </customValue>
+    <customValue>
+        <fullName>Static Resource</fullName>
+        <default>false</default>
+        <label>Static Resource</label>
+    </customValue>
+    <customValue>
+        <fullName>Tab</fullName>
+        <default>false</default>
+        <label>Tab</label>
+    </customValue>
+    <customValue>
+        <fullName>Trigger Settings Configuration</fullName>
+        <default>false</default>
+        <label>Trigger Settings Configuration</label>
+    </customValue>
+    <customValue>
+        <fullName>User Provisioning Config</fullName>
+        <default>false</default>
+        <label>User Provisioning Config</label>
+    </customValue>
+    <customValue>
+        <fullName>Validation Rule</fullName>
+        <default>false</default>
+        <label>Validation Rule</label>
+    </customValue>
+    <customValue>
+        <fullName>Visualforce Component</fullName>
+        <default>false</default>
+        <label>Visualforce Component</label>
+    </customValue>
+    <customValue>
+        <fullName>Visualforce Page</fullName>
+        <default>false</default>
+        <label>Visualforce Page</label>
+    </customValue>
+    <customValue>
+        <fullName>Whitelist URL for Redirects</fullName>
+        <default>false</default>
+        <label>Whitelist URL for Redirects</label>
+    </customValue>
+    <customValue>
+        <fullName>Whitelisted Site</fullName>
+        <default>false</default>
+        <label>Whitelisted Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Workflow Email Alert</fullName>
+        <default>false</default>
+        <label>Workflow Email Alert</label>
+    </customValue>
+    <customValue>
+        <fullName>Workflow Field Update</fullName>
+        <default>false</default>
+        <label>Workflow Field Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Workflow Outbound Message</fullName>
+        <default>false</default>
+        <label>Workflow Outbound Message</label>
+    </customValue>
+    <customValue>
+        <fullName>Workflow Rule</fullName>
+        <default>false</default>
+        <label>Workflow Rule</label>
+    </customValue>
+    <customValue>
+        <fullName>Workflow Task</fullName>
+        <default>false</default>
+        <label>Workflow Task</label>
+    </customValue>
+    <masterLabel>Component Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

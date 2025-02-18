@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+ul{
+  list-style-type: none;
+}
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);
+}
+.nested {
+  display: none;
+}
+.active {
+  display: block;
+}
+    </style>
+</head>
+<body>
+
+<h1>Candidates for Scarborough in the 2021 WA State Election</h1>
+<p>
+  Your choice for this election is a choice that will shape the future for Western Australia.<br>
+  Western Australia is lucky to have a fantastic government currently in place but it does need improvement, diversity and accountability.<br>
+  Western Australia needs to have political parties in parliament that are strong and stable and won't use and abuse their power.<br>
+  To keep a government strong, they need to know there is potentially other effective people surrounding them the ability to deliver and implement successful policies which will help the lives of Western Australian residents.<br>
+  They do not need people who are ready to undermine or attack positive and effective policies of government.<br>
+  Whilst all parties would love to have total control, it is important that there are other political parties and candidates in parliament that will help strengthen and support the governing party with any critical policies to protect the state whilst also keeping them in line or in check for any measure that could abuse their power.<br>
+  I have researched every candidate and have provided references to their policies and statements.<br>
+  The list of candidates are available below:<br>
+</p>
+<ul>
+    <li>
+        <span class="caret">1: <a href="https://greens.org.au/wa/person/martin-dupont" target="_blank">Mark Twiss</a> (<a href="https://docs.google.com/document/d/1Y4aVfsO7DrY1eO0sFD3RQ7nQzt43IZdX/" target="_blank">Greens</a>)</span>
+        <ul class="nested">
+          This party has made excellent use of evidence based scientific research to develop it's policies and here are some of the reasons why I believe they should be placed in this vote ranking:<br>
+           - They have constructed a well thought out plan to transition towards Green Energy future.<br>
+           - They have developed the policies to kick-start manufacturing in Western Australia and to improve the quality and profitability of local farms.<br>
+           - They have developed policies to take a preventative approach to tackle the rising cost of Hospitals and Health Care Cover<br>
+           - They are aware and active of all the surrounding issues that are involved in pushing ahead through it's plans.<br>
+           - They are active, hard working and very efficient in parliament house.<br>
+           - They have developed policies to improve the quality of Education that will ensure people can access the necessary skills and qualifications for the workforce.<br>
+      </ul>
+    </li>
+
+    <li>
+      <span class="caret">2. Stuart Aubrey (<a href="https://www.wanneroo.walabor.org.au/" target="_blank">Labor</a>)</span>
+      <ul class="nested">
+        This political party is heavily funded by Corporations ($1.8 Million) and Unions ($0.6 Million). <br>
+        It is very difficult for an individual to not be obsequious to this power and influence especially when this party had allowed criminal charges to be laid on bus drivers who brought nurses to a protest entreating a 5% pay rise.<br>
+        This party has a clear plan to support the growth of the state economy and has a strong vision for the future of the state.<br>
+        WA Labor has been actively encouraging companies to establish operations in Western Australia and has been providing reasonable incentives to attract new industries that will provide economic benefits to the state.<br>
+      </ul>
+    </li>
+    <li>
+        <span class="caret">3. Emily Stokes (<a href="https://wa.animaljusticeparty.org/emily-stokes" target="_blank">Animal Justice Party</a>)</span>
+        <ul class="nested">
+          This is party for environmental vegan activists.<br>
+          They want to ban greyhound racing, horse riding and animals in zoos or pet stores<br>
+          They are quite extreme and they don't have any manufacturing policies.<br>
+          They would like to ban all factories on farms.<br>
+          Farmers are running an extremely tough business and without farmers there is no food in Western Australia.<br>
+          Shortages of food due to these policies can cause mass starvation for WA citizens.
+        </ul>
+    </li>
+    <li>
+      <span class="caret">4. Damien Kelly (<a href="https://en.wikipedia.org/wiki/The_Clan_(Liberal_Party_of_Australia)" target="_blank">Liberal</a>)</span>
+      <ul class="nested">
+        This party likes to focus on <a href="https://en.wikipedia.org/wiki/The_Clan_(Liberal_Party_of_Australia)" target="_blank">branch stacking.</a><br>
+        Under the Liberal party government, <a href="https://docs.google.com/document/d/1tNFd4zzPzg22rSvVghGgCf6KqDpEkq6zYHNKBoMNdes">torture and beatings have been able to continue against detainees in highly brutal ways</a>.<br>
+        This party has introduced 2 year jail sentences for <a href="https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22legislation%2Fbillsdgs%2F3816040%22">people who expose information that the government doesn't like</a>.
+      </ul>
+    </li>
+    <li>
+      <span class="caret">5. Elizabeth Re (<a href="https://www.nationalswa.com/our-team/" target="_blank">Nationals</a>)</span>
+      <ul class="nested">
+        This party has a significant interest in defending the rights of firearm owners and enthusiasts in Western Australia.<br>
+        This is highly dangerous because these types of policies can increase the possibility of shootings to occur such as the Floreat shooting that happened not too long ago.
+      </ul>
+    </li>
+</ul>
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
+</body>
+</html>

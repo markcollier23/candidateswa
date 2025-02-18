@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Highlights_Panel</fullName>
+    <fields>Name</fields>
+    <fields>Report__c</fields>
+    <fields>Result__c</fields>
+    <fields>Result_without_mistakes__c</fields>
+    <fields>Number_of_Questions__c</fields>
+    <fields>Total_Errors__c</fields>
+    <fields>Total_Mistakes__c</fields>
+    <label>Highlights Panel</label>
+</CompactLayout>

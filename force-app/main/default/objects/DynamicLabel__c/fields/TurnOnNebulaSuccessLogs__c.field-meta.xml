@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TurnOnNebulaSuccessLogs__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether you would like to turn on or turn off Success Nebula Log Entry records.</description>
+    <label>Turn On Nebula Success Logs</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

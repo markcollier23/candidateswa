@@ -147,6 +147,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
             <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
@@ -231,32 +235,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -279,6 +291,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
             <field>CORE.USERS.LAST_NAME</field>
@@ -300,13 +313,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -370,6 +385,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -454,32 +473,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -502,6 +529,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -523,13 +551,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -593,6 +623,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -681,32 +715,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -729,6 +771,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -751,13 +794,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -821,6 +866,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -905,32 +954,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -953,6 +1010,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -974,13 +1032,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1044,6 +1104,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1132,32 +1196,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1180,6 +1252,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1202,13 +1275,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1272,6 +1347,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1356,32 +1435,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1404,6 +1491,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1425,13 +1513,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1495,6 +1585,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1583,32 +1677,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1631,6 +1733,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1653,13 +1756,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1723,6 +1828,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1807,32 +1916,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1855,6 +1972,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1876,13 +1994,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1946,6 +2066,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2034,32 +2158,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2082,6 +2214,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2104,13 +2237,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2174,6 +2309,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2258,32 +2397,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2306,6 +2453,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2327,13 +2475,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2397,6 +2547,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2485,32 +2639,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2533,6 +2695,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2555,13 +2718,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2625,6 +2790,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2709,32 +2878,40 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000RFYg3</field>
+            <label>Approval Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w21</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000Q3w22</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000RFRcF</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000RFRcP</field>
+            <label>Discount Percentage Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w23</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000Q3w24</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000P3Mdt</field>
+            <label>SolarBot Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000Q3w25</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2757,6 +2934,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2778,13 +2956,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000RFYg3</field>
+            <field>00N2v00000Q3w21</field>
+            <field>00N2v00000Q3w22</field>
+            <field>00N2v00000RFRcF</field>
+            <field>00N2v00000RFRcP</field>
+            <field>00N2v00000Q3w23</field>
+            <field>00N2v00000Q3w24</field>
+            <field>00N2v00000P3Mdt</field>
+            <field>00N2v00000Q3w25</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>

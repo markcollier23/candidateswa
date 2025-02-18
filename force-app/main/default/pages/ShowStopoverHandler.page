@@ -1,0 +1,6 @@
+<apex:page lightningStylesheets="true">
+    <apex:form >
+        <apex:commandButton action="{!addStopover}" value="Add Stopover"/>&nbsp;
+        <apex:commandButton action="{!removeStopover}" value="Remove Stopover"/>&nbsp;
+    </apex:form>
+</apex:page>

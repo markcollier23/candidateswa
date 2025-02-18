@@ -1,0 +1,14 @@
+<apex:page lightningStylesheets="true">
+    <apex:form >
+        <p>
+        <apex:commandButton action="{!showCalendar}" value="Show All"/>&nbsp;
+        <apex:commandButton action="{!showStopovers}" value="Show Stopover Timetable"/>&nbsp;
+        <apex:commandButton action="{!showFlights}" value="Show Flight Timetable"/>&nbsp;
+        <apex:commandButton action="{!removeTimetable}" value="Remove Timetable"/>            
+        </p>
+        <p>
+            <apex:commandButton action="{!removeRelatedTrips}" value="Delete Related Trips"/>
+            <apex:commandButton action="{!checkAccomadation}" value="Ensure Accomadation"/>
+        </p>
+    </apex:form>
+</apex:page>

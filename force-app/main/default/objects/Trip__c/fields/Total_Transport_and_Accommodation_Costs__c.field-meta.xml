@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Transport_and_Accommodation_Costs__c</fullName>
+    <label>Total Transport and Accommodation Costs</label>
+    <summarizedField>Stopover__c.Total_Costs__c</summarizedField>
+    <summaryForeignKey>Stopover__c.Trip__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

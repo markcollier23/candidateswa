@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Up_Antiscalant_Tank__c</fullName>
+    <description>For EU Repair Form</description>
+    <label>Top Up Antiscalant Tank</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Top_Up_Antiscalant_Tank</valueSetName>
+    </valueSet>
+</CustomField>

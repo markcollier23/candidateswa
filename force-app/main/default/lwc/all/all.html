@@ -1,0 +1,261 @@
+<template> 
+    <center>Display a Lightning Web Component</center> 
+    <lightning-combobox name = "lwcs" value={value} placeholder = "Select a Lightning Web Component"  
+    options = {options} onchange={handleChange}> 
+    </lightning-combobox> 
+    <template if:true={all}> 
+        <c-all></c-all> 
+    </template> 
+    <template if:true={apexImperativeMethod}> 
+        <c-apex-imperative-method></c-apex-imperative-method> 
+    </template> 
+    <template if:true={apexImperativeMethodWithComplexParams}> 
+        <c-apex-imperative-method-with-complex-params></c-apex-imperative-method-with-complex-params> 
+    </template> 
+    <template if:true={apexImperativeMethodWithParams}> 
+        <c-apex-imperative-method-with-params></c-apex-imperative-method-with-params> 
+    </template> 
+    <template if:true={apexStaticSchema}> 
+        <c-apex-static-schema></c-apex-static-schema> 
+    </template> 
+    <template if:true={apexWireMethodToFunction}> 
+        <c-apex-wire-method-to-function></c-apex-wire-method-to-function> 
+    </template> 
+    <template if:true={apexWireMethodToProperty}> 
+        <c-apex-wire-method-to-property></c-apex-wire-method-to-property> 
+    </template> 
+    <template if:true={apexWireMethodWithComplexParams}> 
+        <c-apex-wire-method-with-complex-params></c-apex-wire-method-with-complex-params> 
+    </template> 
+    <template if:true={apexWireMethodWithParams}> 
+        <c-apex-wire-method-with-params></c-apex-wire-method-with-params> 
+    </template> 
+    <template if:true={apiFunction}> 
+        <c-api-function></c-api-function> 
+    </template> 
+    <template if:true={apiProperty}> 
+        <c-api-property></c-api-property> 
+    </template> 
+    <template if:true={apiSetterGetter}> 
+        <c-api-setter-getter></c-api-setter-getter> 
+    </template> 
+    <template if:true={auraPubsub}> 
+        <c-aura-pubsub></c-aura-pubsub> 
+    </template> 
+    <template if:true={bearList}> 
+        <c-bear-list></c-bear-list> 
+    </template> 
+    <template if:true={bearLocation}> 
+        <c-bear-location></c-bear-location> 
+    </template> 
+    <template if:true={bearSupervisor}> 
+        <c-bear-supervisor></c-bear-supervisor> 
+    </template> 
+    <template if:true={categoryFilter}> 
+        <c-category-filter></c-category-filter> 
+    </template> 
+    <template if:true={chartBar}> 
+        <c-chart-bar></c-chart-bar> 
+    </template> 
+    <template if:true={clock}> 
+        <c-clock></c-clock> 
+    </template> 
+    <template if:true={compositionBasics}> 
+        <c-composition-basics></c-composition-basics> 
+    </template> 
+    <template if:true={compositionContactSearch}> 
+        <c-composition-contact-search></c-composition-contact-search> 
+    </template> 
+    <template if:true={compositionIteration}> 
+        <c-composition-iteration></c-composition-iteration> 
+    </template> 
+    <template if:true={compositionWithAppBuilder}> 
+        <c-composition-with-app-builder></c-composition-with-app-builder> 
+    </template> 
+    <template if:true={contactList}> 
+        <c-contact-list></c-contact-list> 
+    </template> 
+    <template if:true={contactListItem}> 
+        <c-contact-list-item></c-contact-list-item> 
+    </template> 
+    <template if:true={contactListItemBubbling}> 
+        <c-contact-list-item-bubbling></c-contact-list-item-bubbling> 
+    </template> 
+    <template if:true={contactTile}> 
+        <c-contact-tile></c-contact-tile> 
+    </template> 
+    <template if:true={errorPanel}> 
+        <c-error-panel></c-error-panel> 
+    </template> 
+    <template if:true={eventBubbling}> 
+        <c-event-bubbling></c-event-bubbling> 
+    </template> 
+    <template if:true={eventSimple}> 
+        <c-event-simple></c-event-simple> 
+    </template> 
+    <template if:true={eventWithData}> 
+        <c-event-with-data></c-event-with-data> 
+    </template> 
+    <template if:true={hello}> 
+        <c-hello></c-hello> 
+    </template> 
+    <template if:true={helloBinding}> 
+        <c-hello-binding></c-hello-binding> 
+    </template> 
+    <template if:true={helloConditionalRendering}> 
+        <c-hello-conditional-rendering></c-hello-conditional-rendering> 
+    </template> 
+    <template if:true={helloExpressions}> 
+        <c-hello-expressions></c-hello-expressions> 
+    </template> 
+    <template if:true={helloForEach}> 
+        <c-hello-for-each></c-hello-for-each> 
+    </template> 
+    <template if:true={helloIterator}> 
+        <c-hello-iterator></c-hello-iterator> 
+    </template> 
+    <template if:true={helloWebComponent}> 
+        <c-hello-web-component></c-hello-web-component> 
+    </template> 
+    <template if:true={lds}> 
+        <c-lds></c-lds> 
+    </template> 
+    <template if:true={ldsCreateRecord}> 
+        <c-lds-create-record></c-lds-create-record> 
+    </template> 
+    <template if:true={ldsDeleteRecord}> 
+        <c-lds-delete-record></c-lds-delete-record> 
+    </template> 
+    <template if:true={ldsUtils}> 
+        <c-lds-utils></c-lds-utils> 
+    </template> 
+    <template if:true={libsChartjs}> 
+        <c-libs-chartjs></c-libs-chartjs> 
+    </template> 
+    <template if:true={libsD3}> 
+        <c-libs-d3></c-libs-d3> 
+    </template> 
+    <template if:true={libsMomentjs}> 
+        <c-libs-momentjs></c-libs-momentjs> 
+    </template> 
+    <template if:true={miscDomQuery}> 
+        <c-misc-dom-query></c-misc-dom-query> 
+    </template> 
+    <template if:true={miscGetUserId}> 
+        <c-misc-get-user-id></c-misc-get-user-id> 
+    </template> 
+    <template if:true={miscModal}> 
+        <c-misc-modal></c-misc-modal> 
+    </template> 
+    <template if:true={miscMultipleTemplates}> 
+        <c-misc-multiple-templates></c-misc-multiple-templates> 
+    </template> 
+    <template if:true={miscNotification}> 
+        <c-misc-notification></c-misc-notification> 
+    </template> 
+    <template if:true={miscRestApiCall}> 
+        <c-misc-rest-api-call></c-misc-rest-api-call> 
+    </template> 
+    <template if:true={miscSharedJavaScript}> 
+        <c-misc-shared-java-script></c-misc-shared-java-script> 
+    </template> 
+    <template if:true={miscStaticResource}> 
+        <c-misc-static-resource></c-misc-static-resource> 
+    </template> 
+    <template if:true={modal}> 
+        <c-modal></c-modal> 
+    </template> 
+    <template if:true={mortgage}> 
+        <c-mortgage></c-mortgage> 
+    </template> 
+    <template if:true={navToChatterHome}> 
+        <c-nav-to-chatter-home></c-nav-to-chatter-home> 
+    </template> 
+    <template if:true={navToFilesHome}> 
+        <c-nav-to-files-home></c-nav-to-files-home> 
+    </template> 
+    <template if:true={navToHelloTab}> 
+        <c-nav-to-hello-tab></c-nav-to-hello-tab> 
+    </template> 
+    <template if:true={navToHome}> 
+        <c-nav-to-home></c-nav-to-home> 
+    </template> 
+    <template if:true={navToListView}> 
+        <c-nav-to-list-view></c-nav-to-list-view> 
+    </template> 
+    <template if:true={navToNewRecord}> 
+        <c-nav-to-new-record></c-nav-to-new-record> 
+    </template> 
+    <template if:true={navToNewRecordWithDefaults}> 
+        <c-nav-to-new-record-with-defaults></c-nav-to-new-record-with-defaults> 
+    </template> 
+    <template if:true={navToRecord}> 
+        <c-nav-to-record></c-nav-to-record> 
+    </template> 
+    <template if:true={navToRelatedList}> 
+        <c-nav-to-related-list></c-nav-to-related-list> 
+    </template> 
+    <template if:true={paginator}> 
+        <c-paginator></c-paginator> 
+    </template> 
+    <template if:true={pubsub}> 
+        <c-pubsub></c-pubsub> 
+    </template> 
+    <template if:true={pubsubContactDetails}> 
+        <c-pubsub-contact-details></c-pubsub-contact-details> 
+    </template> 
+    <template if:true={pubsubContactList}> 
+        <c-pubsub-contact-list></c-pubsub-contact-list> 
+    </template> 
+    <template if:true={pubsubSearchBar}> 
+        <c-pubsub-search-bar></c-pubsub-search-bar> 
+    </template> 
+    <template if:true={recordEditFormDynamicContact}> 
+        <c-record-edit-form-dynamic-contact></c-record-edit-form-dynamic-contact> 
+    </template> 
+    <template if:true={recordEditFormStaticContact}> 
+        <c-record-edit-form-static-contact></c-record-edit-form-static-contact> 
+    </template> 
+    <template if:true={recordFormDynamicContact}> 
+        <c-record-form-dynamic-contact></c-record-form-dynamic-contact> 
+    </template> 
+    <template if:true={recordFormStaticContact}> 
+        <c-record-form-static-contact></c-record-form-static-contact> 
+    </template> 
+    <template if:true={recordViewFormDynamicContact}> 
+        <c-record-view-form-dynamic-contact></c-record-view-form-dynamic-contact> 
+    </template> 
+    <template if:true={recordViewFormStaticContact}> 
+        <c-record-view-form-static-contact></c-record-view-form-static-contact> 
+    </template> 
+    <template if:true={todoList}> 
+        <c-todo-list></c-todo-list> 
+    </template> 
+    <template if:true={viewSource}> 
+        <c-view-source></c-view-source> 
+    </template> 
+    <template if:true={wireCurrentPageReference}> 
+        <c-wire-current-page-reference></c-wire-current-page-reference> 
+    </template> 
+    <template if:true={wireGetObjectInfo}> 
+        <c-wire-get-object-info></c-wire-get-object-info> 
+    </template> 
+    <template if:true={wireGetPicklistValues}> 
+        <c-wire-get-picklist-values></c-wire-get-picklist-values> 
+    </template> 
+    <template if:true={wireGetPicklistValuesByRecordType}> 
+        <c-wire-get-picklist-values-by-record-type></c-wire-get-picklist-values-by-record-type> 
+    </template> 
+    <template if:true={wireGetRecordDynamicContact}> 
+        <c-wire-get-record-dynamic-contact></c-wire-get-record-dynamic-contact> 
+    </template> 
+    <template if:true={wireGetRecordStaticContact}> 
+        <c-wire-get-record-static-contact></c-wire-get-record-static-contact> 
+    </template> 
+    <template if:true={wireGetRecordUser}> 
+        <c-wire-get-record-user></c-wire-get-record-user> 
+    </template> 
+    <template if:true={wireListView}> 
+        <c-wire-list-view></c-wire-list-view> 
+    </template> 
+</template>

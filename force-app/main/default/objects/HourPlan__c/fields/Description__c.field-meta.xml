@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <label>Description</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ISS Contract Extension</fullName>
+                <default>false</default>
+                <label>ISS Contract Extension</label>
+            </value>
+            <value>
+                <fullName>GENERAL INDIRECT OVERHEAD</fullName>
+                <default>false</default>
+                <label>GENERAL INDIRECT OVERHEAD</label>
+            </value>
+            <value>
+                <fullName>NON-CHARGEABLE OVERHEAD</fullName>
+                <default>false</default>
+                <label>NON-CHARGEABLE OVERHEAD</label>
+            </value>
+            <value>
+                <fullName>SIRA - Personal Injury</fullName>
+                <default>false</default>
+                <label>SIRA - Personal Injury</label>
+            </value>
+            <value>
+                <fullName>COM - Generic - ANZ</fullName>
+                <default>false</default>
+                <label>COM - Generic - ANZ</label>
+            </value>
+            <value>
+                <fullName>MediBank_Payment Integrit...</fullName>
+                <default>false</default>
+                <label>MediBank_Payment Integrit...</label>
+            </value>
+            <value>
+                <fullName>Salesforce RIMS Implement...</fullName>
+                <default>false</default>
+                <label>Salesforce RIMS Implement...</label>
+            </value>
+            <value>
+                <fullName>Invoice: December, 2021 (...</fullName>
+                <default>false</default>
+                <label>Invoice: December, 2021 (...</label>
+            </value>
+            <value>
+                <fullName>AMS and Transformation Se...</fullName>
+                <default>false</default>
+                <label>AMS and Transformation Se...</label>
+            </value>
+            <value>
+                <fullName>Minor Works Extension Q4</fullName>
+                <default>false</default>
+                <label>Minor Works Extension Q4</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

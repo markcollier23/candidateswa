@@ -15,9 +15,21 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-home</tabs>
+    <tabs>Component__c</tabs>
+    <tabs>User_Story__c</tabs>
+    <tabs>Epic__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Component__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Epic__c</tab>
+        </mappings>
+        <mappings>
+            <tab>User_Story__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

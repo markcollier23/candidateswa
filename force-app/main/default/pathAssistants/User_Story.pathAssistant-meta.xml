@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>User_Story__c</entityName>
+    <fieldName>Stage__c</fieldName>
+    <masterLabel>User Story</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Acceptance_Criteria__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Please enter the predefined requirements that must be met in order to mark a user story &amp;quot;Done&amp;quot;.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Acceptance Criteria</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Testing_steps__c</fieldNames>
+        <fieldNames>Assigned_To__c</fieldNames>
+        <info>&lt;p&gt;Please assign this user story to the Test Architect for final testing. Make sure the testing steps are correct.&lt;/p&gt;</info>
+        <picklistValueName>In Review</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ReasonOnHold__c</fieldNames>
+        <info>&lt;p&gt;Please specify a reason why this user story is On Hold.&lt;/p&gt;</info>
+        <picklistValueName>On Hold</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Solution_Components__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Think how the Solution may be implemented. Mention what components may need to be created and how those components are to be configured.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Solution Components</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;At this stage please complete the required development. On the bottom right, please add the Salesforce Components you have built.&lt;/p&gt;</info>
+        <picklistValueName>Technical Components</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>As_a__c</fieldNames>
+        <fieldNames>I_need__c</fieldNames>
+        <fieldNames>So_that__c</fieldNames>
+        <info>&lt;p&gt;Please specify the role, requirement and reason for this user story in the fields on the left.&lt;/p&gt;</info>
+        <picklistValueName>To Do</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Testing_steps__c</fieldNames>
+        <fieldNames>Assigned_To__c</fieldNames>
+        <info>&lt;p&gt;Please enter the testing steps required to test this solution then assign this user story to a peer who can do a peer review on this story. Please test your solution yourself before assigning a peer to test this story. If you have a change set, then add your components to the change set.&lt;/p&gt;</info>
+        <picklistValueName>Unit Test</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>User_Story</recordTypeName>
+</PathAssistant>

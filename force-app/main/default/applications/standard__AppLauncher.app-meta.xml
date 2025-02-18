@@ -7,4 +7,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-AppLauncher</tabs>
+    <tabs>Component__c</tabs>
+    <tabs>User_Story__c</tabs>
+    <tabs>Epic__c</tabs>
 </CustomApplication>

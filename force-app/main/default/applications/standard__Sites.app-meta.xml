@@ -8,4 +8,7 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-Sites</tabs>
+    <tabs>Component__c</tabs>
+    <tabs>User_Story__c</tabs>
+    <tabs>Epic__c</tabs>
 </CustomApplication>

@@ -11,8 +11,20 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
+    <tabs>Component__c</tabs>
+    <tabs>User_Story__c</tabs>
+    <tabs>Epic__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>Component__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Epic__c</tab>
+        </mappings>
+        <mappings>
+            <tab>User_Story__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
         </mappings>

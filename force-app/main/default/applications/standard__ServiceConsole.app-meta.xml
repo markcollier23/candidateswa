@@ -181,7 +181,19 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>Component__c</tabs>
+    <tabs>User_Story__c</tabs>
+    <tabs>Epic__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Component__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Epic__c</tab>
+        </mappings>
+        <mappings>
+            <tab>User_Story__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

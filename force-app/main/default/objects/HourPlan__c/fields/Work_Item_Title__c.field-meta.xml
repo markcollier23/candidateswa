@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Item_Title__c</fullName>
+    <label>Work Item Title</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DS GenApps enhancements</fullName>
+                <default>false</default>
+                <label>DS GenApps enhancements</label>
+            </value>
+            <value>
+                <fullName>GenApps Incidents</fullName>
+                <default>false</default>
+                <label>GenApps Incidents</label>
+            </value>
+            <value>
+                <fullName>SIRA Pesonal Injury</fullName>
+                <default>false</default>
+                <label>SIRA Pesonal Injury</label>
+            </value>
+            <value>
+                <fullName>GBS-ONLY UNBILLED</fullName>
+                <default>false</default>
+                <label>GBS-ONLY UNBILLED</label>
+            </value>
+            <value>
+                <fullName>Incidents</fullName>
+                <default>false</default>
+                <label>Incidents</label>
+            </value>
+            <value>
+                <fullName>Continuous Improvement Initiatives</fullName>
+                <default>false</default>
+                <label>Continuous Improvement Initiatives</label>
+            </value>
+            <value>
+                <fullName>BAU ARC</fullName>
+                <default>false</default>
+                <label>BAU ARC</label>
+            </value>
+            <value>
+                <fullName>Invoice: December, 2021 (...</fullName>
+                <default>false</default>
+                <label>Invoice: December, 2021 (...</label>
+            </value>
+            <value>
+                <fullName>Requests</fullName>
+                <default>false</default>
+                <label>Requests</label>
+            </value>
+            <value>
+                <fullName>GenApps Requests</fullName>
+                <default>false</default>
+                <label>GenApps Requests</label>
+            </value>
+            <value>
+                <fullName>GenApps Other Activities (Maintenance)</fullName>
+                <default>false</default>
+                <label>GenApps Other Activities (Maintenance)</label>
+            </value>
+            <value>
+                <fullName>Other Activities (Maintenance)</fullName>
+                <default>false</default>
+                <label>Other Activities (Maintenance)</label>
+            </value>
+            <value>
+                <fullName>GenApps Customer System Digital enhancements</fullName>
+                <default>false</default>
+                <label>GenApps Customer System Digital enhancements</label>
+            </value>
+            <value>
+                <fullName>COM - Generic - ANZ</fullName>
+                <default>false</default>
+                <label>COM - Generic - ANZ</label>
+            </value>
+            <value>
+                <fullName>MediBank_Payment Integrit...</fullName>
+                <default>false</default>
+                <label>MediBank_Payment Integrit...</label>
+            </value>
+            <value>
+                <fullName>Time Out of the Office (TIMEAWAY)</fullName>
+                <default>false</default>
+                <label>Time Out of the Office (TIMEAWAY)</label>
+            </value>
+            <value>
+                <fullName>Salesforce RIMS Implementation Build Phase</fullName>
+                <default>false</default>
+                <label>Salesforce RIMS Implementation Build Phase</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

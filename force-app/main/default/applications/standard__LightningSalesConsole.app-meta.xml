@@ -21,10 +21,24 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+<<<<<<< HEAD
+    <tabs>Stock__c</tabs>
+    <tabs>Price__c</tabs>
+=======
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
+<<<<<<< HEAD
+            <tab>Price__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Stock__c</tab>
+        </mappings>
+        <mappings>
+=======
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
             <tab>standard-Account</tab>
         </mappings>
         <mappings>

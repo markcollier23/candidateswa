@@ -181,8 +181,21 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+<<<<<<< HEAD
+    <tabs>Stock__c</tabs>
+    <tabs>Price__c</tabs>
     <workspaceConfig>
         <mappings>
+            <tab>Price__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Stock__c</tab>
+        </mappings>
+        <mappings>
+=======
+    <workspaceConfig>
+        <mappings>
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
             <tab>standard-Account</tab>
         </mappings>
         <mappings>

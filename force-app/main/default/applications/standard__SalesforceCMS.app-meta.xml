@@ -11,9 +11,23 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
+<<<<<<< HEAD
+    <tabs>Stock__c</tabs>
+    <tabs>Price__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
+            <tab>Price__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Stock__c</tab>
+        </mappings>
+        <mappings>
+=======
+    <uiType>Lightning</uiType>
+    <workspaceConfig>
+        <mappings>
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
             <tab>standard-CmsAuthorHome</tab>
         </mappings>
         <mappings>

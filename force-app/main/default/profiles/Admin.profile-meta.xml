@@ -376,10 +376,13 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+<<<<<<< HEAD
+=======
         <name>ManageContentTaxonomy</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
         <name>ManageContentTypes</name>
     </userPermissions>
     <userPermissions>
@@ -536,10 +539,13 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+<<<<<<< HEAD
+=======
         <name>ManageTerritories</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
         <name>ManageUnlistedGroups</name>
     </userPermissions>
     <userPermissions>
@@ -676,7 +682,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+<<<<<<< HEAD
+        <name>TraceXdsQueries</name>
+=======
         <name>TerritoryOperations</name>
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -772,10 +782,13 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+<<<<<<< HEAD
+=======
         <name>ViewPersonalOrg</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
         <name>ViewPlatformEvents</name>
     </userPermissions>
     <userPermissions>

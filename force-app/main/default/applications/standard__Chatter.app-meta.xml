@@ -11,5 +11,10 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+<<<<<<< HEAD
+    <tabs>Stock__c</tabs>
+    <tabs>Price__c</tabs>
+=======
     <tabs>Exam__c</tabs>
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
 </CustomApplication>

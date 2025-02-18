@@ -13,4 +13,9 @@
     <tabs>standard-IdeaTheme</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+<<<<<<< HEAD
+    <tabs>Stock__c</tabs>
+    <tabs>Price__c</tabs>
+=======
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
 </CustomApplication>

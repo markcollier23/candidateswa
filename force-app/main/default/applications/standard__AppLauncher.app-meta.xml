@@ -7,6 +7,9 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-AppLauncher</tabs>
+<<<<<<< HEAD
     <tabs>Stock__c</tabs>
     <tabs>Price__c</tabs>
+=======
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
 </CustomApplication>

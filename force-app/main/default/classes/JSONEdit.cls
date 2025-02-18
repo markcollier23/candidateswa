@@ -1,9 +1,43 @@
+<<<<<<< HEAD
 //Author: Mark Collier 
 public class JSONEdit extends JSONLocator{ 
+=======
+/** 
+* Name: JSONEdit 
+* Purpose: Apex Class responsible for adding data to a JSON payload. 
+*  
+* Who            When           Ref            What             
+* ------------------------------------------------------------- 
+* Mark Collier   10/12/2024     API            All              
+* ------------------------------------------------------------- 
+**/ 
+public class JSONEdit extends JSONLocator{ 
+	/** 
+	* Name: JSONEdit 
+	* Purpose: Constructor used to control and direct the neccessary operations for this Apex Class. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     public JSONEdit(Serial jso) { 
         globalJSONSerial = jso; 
         nodePath = getLocations(); 
     } 
+<<<<<<< HEAD
+=======
+	/** 
+	* Name: execute 
+	* Purpose: To execute the process of adding data to a JSON payload. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     public Object execute(){ 
         Object valueToIncrementOn = globalJSONSerial.valueToBeAssignedToNodeLocation; 
         for(Integer i=nodePath.size()-1;i>=0;i--){ 
@@ -31,6 +65,18 @@ public class JSONEdit extends JSONLocator{
         Object local = getLocalObject(); 
         return local; 
     } 
+<<<<<<< HEAD
+=======
+	/** 
+	* Name: doLocationAndIndex 
+	* Purpose: To override the return of the json object found assuming the path has a location and index. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     public override Object doLocationAndIndex(){ 
         Serial current = localJSONSerial; 
         if(current.isList()){ 
@@ -48,6 +94,18 @@ public class JSONEdit extends JSONLocator{
         localJSONSerial = current; 
         return insertINTO; 
     } 
+<<<<<<< HEAD
+=======
+	/** 
+	* Name: doIndexNoLocation 
+	* Purpose: To override the return of the json object found assuming the path has an index but no location.. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
 	public override Object doIndexNoLocation(){ 
         List<Object> current = new List<Object>(); 
 		if(localJSONSerial.isList()){ 
@@ -70,11 +128,35 @@ public class JSONEdit extends JSONLocator{
             } 
 		return instances;  
     }  
+<<<<<<< HEAD
+=======
+	/** 
+	* Name: addLocalKeyAndValue 
+	* Purpose: To return an additional key value pair. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     public Object addLocalKeyAndValue(Object item){ 
         Map<String,Object> itemToAdd = (Map<String,Object>)item; 
         itemToAdd.put(localJSONSerial.getLocation(),localJSONSerial.valueToBeAssignedToNodeLocation); 
         return itemToAdd; 
     } 
+<<<<<<< HEAD
+=======
+	/** 
+	* Name: doLocationNoIndex 
+	* Purpose: To override the return of the json object found assuming the path has a location but no index. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     public override Object doLocationNoIndex(){ 
         Map<String,Object> jsonMap = localJSONSerial.getMap(); 
         if(jsonMap==null){ 
@@ -85,6 +167,18 @@ public class JSONEdit extends JSONLocator{
         jsonMap.put(localJSONSerial.getLocation(),localJSONSerial.valueToBeAssignedToNodeLocation); 
         return jsonMap; 
     } 
+<<<<<<< HEAD
+=======
+	/** 
+	* Name: doNoLocationOrIndex 
+	* Purpose: To override the return of the json object found assuming the path has no location or index. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     public override Object doNoLocationOrIndex(){ 
         Serial valueSerial = new Serial(localJSONSerial.valueToBeAssignedToNodeLocation,'',''); 
         if(localJSONSerial.isEmpty() && valueSerial.isEmpty()){ 
@@ -101,6 +195,18 @@ public class JSONEdit extends JSONLocator{
         } 
         return concatList(localJSONSerial,valueSerial); 
     } 
+<<<<<<< HEAD
+=======
+	/** 
+	* Name: get 
+	* Purpose: Retrieve a node within this existing json payload based on an index value in the list. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     public Serial get(Integer i){ 
         JSONGet jget = new JSONGet(new Serial(globalJSONSerial.text,getNodePath(i))); 
         if(jget.globalJSONSerial.nodeLocationInterestedIn=='')jget.globalJSONSerial.text = '{}'; 
@@ -109,6 +215,18 @@ public class JSONEdit extends JSONLocator{
         localJSONSerial = new Serial('',nodePath[i],doOperation); 
         return new Serial(getLocalString(),nodePath[i],doOperation); 
     } 
+<<<<<<< HEAD
+=======
+	/** 
+	* Name: getGlobalObject 
+	* Purpose: Retrieve a global node within this existing json payload based on an index value in the list. 
+	*  
+	* Who            When           Ref            What                      
+	* ---------------------------------------------------------------------- 
+	* Mark Collier   10/12/2024     API            Method has been created.  
+	* ---------------------------------------------------------------------- 
+	**/ 
+>>>>>>> 7f59af60845f5b4952492f38fab5d498479ca08b
     public Object getGlobalObject(Integer i){ 
         Object jsonText; 
         if(i<0){ 

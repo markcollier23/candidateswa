@@ -30,8 +30,16 @@
                 <field>Site</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Month__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CurrencyIsoCode</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Region__c</field>
+                <field>TextArea__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -168,6 +176,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Description</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>TextAreaLong__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

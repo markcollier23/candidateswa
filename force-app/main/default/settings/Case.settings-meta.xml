@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseAssignNotificationTemplate>unfiled$public/SupportCaseAssignmentNotification</caseAssignNotificationTemplate>
-    <caseAutoProcUser>false</caseAutoProcUser>
     <caseCreateNotificationTemplate>unfiled$public/SupportCaseCreatedPhoneInquiries</caseCreateNotificationTemplate>
     <caseFeedItemSettings>
         <characterLimit>400</characterLimit>
@@ -12,43 +11,16 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>m.collier@wise-hawk-7achi1.com</defaultCaseOwner>
+    <defaultCaseOwner>m.collier@cunning-goat-lzayoi.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>m.collier@wise-hawk-7achi1.com</defaultCaseUser>
+    <defaultCaseUser>m.collier@cunning-goat-lzayoi.com</defaultCaseUser>
     <emailToCase>
-        <enableE2CAttachmentAsFile>false</enableE2CAttachmentAsFile>
-        <enableE2CDeduplicateAttachments>false</enableE2CDeduplicateAttachments>
-        <enableE2CExternalServer>false</enableE2CExternalServer>
-        <enableE2CSourceTracking>true</enableE2CSourceTracking>
-        <enableEmailToCase>true</enableEmailToCase>
-        <enableHtmlEmail>true</enableHtmlEmail>
-        <enableNewToReadTriggers>false</enableNewToReadTriggers>
-        <enableOnDemandEmailToCase>false</enableOnDemandEmailToCase>
-        <enableThreadTokenInBody>false</enableThreadTokenInBody>
-        <enableThreadTokenInSubject>false</enableThreadTokenInSubject>
-        <movingEmailEnabled>false</movingEmailEnabled>
-        <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
-        <preQuoteSignature>false</preQuoteSignature>
-        <replyWithNewContentOnly>false</replyWithNewContentOnly>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>markcollier723@gmail.com</emailAddress>
-            <isPermsetControlled>false</isPermsetControlled>
-            <isVerified>false</isVerified>
-            <routingName>Service</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <useEmailHeadersForThreading>true</useEmailHeadersForThreading>
+        <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
     <enableCaseSwarming>false</enableCaseSwarming>
     <enableCollapseEmailThread>true</enableCollapseEmailThread>
-    <enableDraftEmails>false</enableDraftEmails>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
-    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
     <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
     <enableMultiLangSolnSrchCSS>false</enableMultiLangSolnSrchCSS>
     <enableMultiLangSolnSrchPKB>false</enableMultiLangSolnSrchPKB>

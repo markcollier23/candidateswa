@@ -19,10 +19,6 @@
                 <outputField>LastName</outputField>
             </mappingFields>
             <mappingFields>
-                <inputField>Phone</inputField>
-                <outputField>Phone</outputField>
-            </mappingFields>
-            <mappingFields>
                 <inputField>Email</inputField>
                 <outputField>Email</outputField>
             </mappingFields>
@@ -45,6 +41,10 @@
             <mappingFields>
                 <inputField>AccountId</inputField>
                 <outputField>Company</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Phone</inputField>
+                <outputField>Phone</outputField>
             </mappingFields>
             <outputObject>Lead</outputObject>
         </objectMapping>

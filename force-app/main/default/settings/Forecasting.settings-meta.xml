@@ -231,32 +231,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -300,13 +296,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -454,32 +449,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -523,13 +514,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -681,32 +671,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -751,13 +737,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -905,32 +890,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -974,13 +955,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1132,32 +1112,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1202,13 +1178,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1356,32 +1331,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1425,13 +1396,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1583,32 +1553,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1653,13 +1619,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1807,32 +1772,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1876,13 +1837,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2034,32 +1994,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2104,13 +2060,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2258,32 +2213,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2327,13 +2278,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2485,32 +2435,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2555,13 +2501,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2709,32 +2654,28 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000MtOsJ</field>
+            <label>Close Reason</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000NXSqK</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000NXSqL</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000NXSqM</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000NXSqN</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000NXSqO</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2778,13 +2719,12 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000MtOsJ</field>
+            <field>00N2v00000NXSqK</field>
+            <field>00N2v00000NXSqL</field>
+            <field>00N2v00000NXSqM</field>
+            <field>00N2v00000NXSqN</field>
+            <field>00N2v00000NXSqO</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>

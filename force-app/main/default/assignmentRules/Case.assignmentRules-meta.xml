@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>m.collier@wise-hawk-7achi1.com</assignedTo>
+            <assignedTo>markcollier2@cmail.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -23,7 +23,16 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>m.collier@wise-hawk-7achi1.com</assignedTo>
+            <assignedTo>Billing_Support_Agents</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>markcollier2@cmail.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -42,7 +51,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>m.collier@wise-hawk-7achi1.com</assignedTo>
+            <assignedTo>markcollier2@cmail.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -61,7 +70,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>m.collier@wise-hawk-7achi1.com</assignedTo>
+            <assignedTo>markcollier2@cmail.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -80,7 +89,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>m.collier@wise-hawk-7achi1.com</assignedTo>
+            <assignedTo>markcollier2@cmail.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>

@@ -3,11 +3,11 @@
     <enableCanAnswerContainUsername>true</enableCanAnswerContainUsername>
     <enableConcealPersonalInfo>true</enableConcealPersonalInfo>
     <enableContactlessExternalIdentityUsers>false</enableContactlessExternalIdentityUsers>
-    <enableEnhancedConcealPersonalInfo>true</enableEnhancedConcealPersonalInfo>
+    <enableEnhancedConcealPersonalInfo>false</enableEnhancedConcealPersonalInfo>
     <enableEnhancedPermsetMgmt>false</enableEnhancedPermsetMgmt>
     <enableEnhancedProfileMgmt>true</enableEnhancedProfileMgmt>
     <enableEnhcUiUserAccessPolicies>false</enableEnhcUiUserAccessPolicies>
-    <enableNewProfileUI>true</enableNewProfileUI>
+    <enableNewProfileUI>false</enableNewProfileUI>
     <enableProfileFiltering>false</enableProfileFiltering>
     <enableRestrictEmailDomains>false</enableRestrictEmailDomains>
     <enableScrambleUserData>false</enableScrambleUserData>

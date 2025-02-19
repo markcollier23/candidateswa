@@ -8,11 +8,27 @@
     <label>Salesforce CMS</label>
     <navType>Console</navType>
     <tabs>standard-CmsAuthorHome</tabs>
+    <tabs>Waypoint__c</tabs>
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
+    <tabs>Coronavirus__c</tabs>
+    <tabs>Charity__c</tabs>
+    <tabs>Population__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>Charity__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Coronavirus__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Population__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Waypoint__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
         </mappings>

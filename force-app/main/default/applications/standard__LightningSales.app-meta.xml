@@ -25,6 +25,10 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
+    <tabs>Waypoint__c</tabs>
+    <tabs>Coronavirus__c</tabs>
+    <tabs>Charity__c</tabs>
+    <tabs>Population__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

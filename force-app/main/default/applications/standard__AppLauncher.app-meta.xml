@@ -7,4 +7,8 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-AppLauncher</tabs>
+    <tabs>Waypoint__c</tabs>
+    <tabs>Coronavirus__c</tabs>
+    <tabs>Charity__c</tabs>
+    <tabs>Population__c</tabs>
 </CustomApplication>

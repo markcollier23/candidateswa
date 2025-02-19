@@ -10,4 +10,8 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Waypoint__c</tabs>
+    <tabs>Coronavirus__c</tabs>
+    <tabs>Charity__c</tabs>
+    <tabs>Population__c</tabs>
 </CustomApplication>

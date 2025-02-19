@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>CPC.Content:Bills</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Bills</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>This will give you a list of your current bills</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Content:FAQ&apos;s</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>FAQ&apos;s</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription>Frequently Asked Questions</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Content:Outages</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Outages</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>This will display a list view of all your Outages</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Content:Power Saving Tips</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Power Saving Tips</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Featured:Bills</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Bills</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>This will give you a list of your current bills</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Featured:FAQ&apos;s</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>FAQ&apos;s</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription>Frequently Asked Questions</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Featured:Outages</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Outages</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>This will display a list view of all your Outages</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Featured:Power Saving Tips</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Power Saving Tips</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Navigational:Bills</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Bills</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>This will give you a list of your current bills</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Navigational:FAQ&apos;s</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>FAQ&apos;s</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription>Frequently Asked Questions</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Navigational:Outages</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Outages</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>This will display a list view of all your Outages</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CPC.Navigational:Power Saving Tips</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Power Saving Tips</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

@@ -21,9 +21,25 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Waypoint__c</tabs>
+    <tabs>Coronavirus__c</tabs>
+    <tabs>Charity__c</tabs>
+    <tabs>Population__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Charity__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Coronavirus__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Population__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Waypoint__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

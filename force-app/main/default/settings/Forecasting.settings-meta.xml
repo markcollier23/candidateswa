@@ -219,6 +219,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -231,32 +235,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -297,16 +305,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -442,6 +452,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -454,32 +468,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -520,16 +538,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -669,6 +689,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -681,32 +705,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -748,16 +776,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -893,6 +923,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -905,32 +939,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -971,16 +1009,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1120,6 +1160,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1132,32 +1176,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1199,16 +1247,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1344,6 +1394,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1356,32 +1410,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1422,16 +1480,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1571,6 +1631,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1583,32 +1647,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1650,16 +1718,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1795,6 +1865,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1807,32 +1881,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1873,16 +1951,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2022,6 +2102,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2034,32 +2118,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2101,16 +2189,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2246,6 +2336,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2258,32 +2352,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2324,16 +2422,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2473,6 +2573,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2485,32 +2589,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2552,16 +2660,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2697,6 +2807,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2709,32 +2823,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdH</field>
+            <field>00N2v00000OKF9D</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdI</field>
+            <field>00N2v00000PlSkX</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000PlSkY</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2v00000OKF9E</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdJ</field>
+            <field>00N2v00000OKF9F</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdK</field>
+            <field>00N2v00000OKF9G</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000FMDdL</field>
+            <field>00N2v00000OKF9H</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>TERR2_NAME</field>
-            <label>Territory Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>TERR2_DESC</field>
-            <label>Territory Description</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2775,16 +2893,18 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000FMDdH</field>
-            <field>00N2w00000FMDdI</field>
-            <field>00N2w00000FMDdJ</field>
-            <field>00N2w00000FMDdK</field>
-            <field>00N2w00000FMDdL</field>
-            <field>TERR2_NAME</field>
-            <field>TERR2_DESC</field>
+            <field>00N2v00000OKF9D</field>
+            <field>00N2v00000PlSkX</field>
+            <field>00N2v00000PlSkY</field>
+            <field>00N2v00000OKF9E</field>
+            <field>00N2v00000OKF9F</field>
+            <field>00N2v00000OKF9G</field>
+            <field>00N2v00000OKF9H</field>
+            <field>PARTNER.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>

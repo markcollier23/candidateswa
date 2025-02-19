@@ -25,6 +25,10 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Community_Page_Public</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>People</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
@@ -50,10 +54,6 @@
     </appMenuItems>
     <appMenuItems>
         <name>LightningInstrumentation</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>MobileHome</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
 </AppMenu>

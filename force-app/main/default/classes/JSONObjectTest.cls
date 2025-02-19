@@ -1,86 +1,36 @@
-/** 
-* Name: JSONObjectTest 
-* Purpose: To test that we have achieved the goal of adding, removing and retrieving values from a JSON payload. 
-*  
-* Who            When           Ref            What             
-* ------------------------------------------------------------- 
-* Mark Collier   10/12/2024     API            All              
-* ------------------------------------------------------------- 
-**/ 
+//Author: Mark Collier 
+//Purpose: To test that we have achieved the following goal:   
+//	-  To get and add values to a JSON String.   
 @isTest   
 public class JSONObjectTest{  
+	//the purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.   
 	@isTest   
-	/** 
-	* Name: testGet 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testGet(){   
 		JSONObject jso = new JSONObject('{"title":{"name":"Test"}}');  
-		System.assertEquals('Test',jso.get('title:name'));  
+		System.assertEquals('"Test"',jso.get('title:name'));  
 	}   
 	@isTest  
-	/** 
-	* Name: testGetList 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testGetList(){  
 		JSONObject jso = new JSONObject('[{"title":{"name":"Test"}}]');  
-		System.assertEquals('Test',jso.get('|0:title:name'));  
+		System.assertEquals('"Test"',jso.get('|0:title:name'));  
 	}  
 	@isTest  
 	public static void testGetTitleList(){  
 		JSONObject jso = new JSONObject('{"title":[{"name":"Test"}]}');  
-		System.assertEquals('Test',jso.get('title|0:name'));  
+		System.assertEquals('"Test"',jso.get('title|0:name'));  
 	}  
 	@isTest  
-	/** 
-	* Name: testGetTitle1List 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testGetTitle1List(){  
 		JSONObject jso = new JSONObject('{"title":[{"name":"Mitch"},{"name":"Test"}]}');  
-		System.assertEquals('Test',jso.get('title|1:name'));  
+		System.assertEquals('"Test"',jso.get('title|1:name'));  
 	}  
 	@isTest  
-	/** 
-	* Name: testGetNothing 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testGetNothing(){  
 		JSONObject jso = new JSONObject('{"title":[{"name":"Mitch"},{"name":"Test"}]}');  
-		System.assertEquals('{title:[{name:Mitch},{name:Test}]}',jso.get(''));  
+		System.assertEquals('{"title":[{"name":"Mitch"},{"name":"Test"}]}',jso.get(''));  
 		System.debug('Nothing = '+jso.get('nothing'));  
 	}  
 	@isTest  
-	/** 
-	* Name: doListGetTest 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void doListGetTest(){  
 		Serial createList = new Serial('[{"name":"Mitch"},{"name":"Test"}]',1);  
 		List<Object> listShouldHave2Items = createList.getList();  
@@ -91,15 +41,6 @@ public class JSONObjectTest{
 		System.debug('The list '+listShouldHave2Items+' has 1 item within it.');  
 	}  
 	@isTest  
-	/** 
-	* Name: doGetTestError 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void doGetTestError(){  
 		Serial createList = new Serial('[{"name":"Mitch"},{"name":"Test"}]','|0|1:error');  
 		JSONGet getError = new JSONGet(createList);  
@@ -108,15 +49,6 @@ public class JSONObjectTest{
 		System.assertEquals(null,getError.getLocalObject(),'An null object should have been retrieved');  
 	}  
 	@isTest  
-	/** 
-	* Name: testGetEmptyListAndConvertToAMap 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testGetEmptyListAndConvertToAMap(){  
 		JSONObject jso = new JSONObject('[]');  
 		System.assertEquals(new List<Object>(),jso.getList(),'JSON Object getList() method should return an empty list.');  
@@ -136,15 +68,6 @@ public class JSONObjectTest{
 		System.debug('Final JSON object = '+jso.getObject());  
 	}  
 	@isTest  
-	/** 
-	* Name: turnMapIntoList 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void turnMapIntoList(){  
 		JSONObject jso = new JSONObject('{}');  
 		jso.add('value','key');  
@@ -153,15 +76,6 @@ public class JSONObjectTest{
 		System.debug(jso.getList().get(0));  
 	}  
 	@isTest  
-	/** 
-	* Name: testAdd 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testAdd(){  
 		JSONObject jso = new JSONObject(new Map<String,Object>());  
 		System.debug(jso.add('value','key'));  
@@ -170,15 +84,6 @@ public class JSONObjectTest{
 		System.debug(jso.add('value1','key'));  
 	}  
 	@isTest  
-	/** 
-	* Name: testChessBoard 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testChessBoard(){  
 		JSONObject chess = new JSONObject('[]');  
 		JSONObject ten = new JSONObject('[]');  
@@ -190,29 +95,11 @@ public class JSONObjectTest{
 		System.debug(chess);  
 	}  
 	@isTest  
-	/** 
-	* Name: addFromSingleInstance 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void addFromSingleInstance(){  
 		JSONObject instance = new JSONObject('["instance 1"]');  
 		System.debug(instance.add('instance 2'));  
 	}  
 	@isTest  
-	/** 
-	* Name: addStringsAndLists 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void addStringsAndLists(){  
 		JSONObject instance = new JSONObject('{}');  
 		System.debug(instance.add('instance 2'));  
@@ -224,44 +111,17 @@ public class JSONObjectTest{
 		System.debug(numberJSON.add('{"hi":"hello"}'));  
 	}  
 	@isTest  
-	/** 
-	* Name: areNumbersRecognised 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void areNumbersRecognised(){  
 		JSONObject numberJSON = new JSONObject(2);  
 		System.debug(numberJSON.add(3));  
 		System.debug(numberJSON.add(4));  
 	}  
 	@isTest  
-	/** 
-	* Name: addNumberToAMap 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void addNumberToAMap(){  
 		JSONObject mapJSON = new JSONObject('{"key":"value"}');  
 		System.debug(mapJSON.add(3));  
 	}  
 	@isTest  
-	/** 
-	* Name: addEmptyToEmpty 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void addEmptyToEmpty(){  
 		List<Object> emptyValues = new List<Object>();  
 		emptyValues.add(new Map<String,Object>());  
@@ -285,15 +145,6 @@ public class JSONObjectTest{
 		}  
 	}  
 	@isTest  
-	/** 
-	* Name: addMapFromHardNull 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void addMapFromHardNull(){  
 		JSONObject toNull = new JSONObject('');  
 		toNull.text = null;  
@@ -302,15 +153,6 @@ public class JSONObjectTest{
 		System.debug(toNull.add(null));  
 	}  
 	@isTest  
-	/** 
-	* Name: addMapToAList 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void addMapToAList(){  
 		JSONObject listJSON = new JSONObject('[]');  
 		JSONObject item = new JSONObject('{}');  
@@ -323,29 +165,11 @@ public class JSONObjectTest{
 		System.debug(listJSON);  
 	}  
 	@isTest  
-	/** 
-	* Name: testNothing 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testNothing(){  
 		JSONObject nothing = new JSONObject('Nothing');  
 		System.debug(nothing.getObject());  
 	}  
 	@isTest  
-	/** 
-	* Name: addMapToAMap 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void addMapToAMap(){  
 		JSONObject jmap = new JSONObject('{"key":"value"}');  
 		System.debug(jmap.add('{"plane":"sky"}'));  
@@ -355,15 +179,6 @@ public class JSONObjectTest{
 		System.debug(jsonMap);  
 	}  
 	@isTest  
-	/** 
-	* Name: testRemove 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testRemove(){  
 		JSONObject jmap = new JSONObject('{"key":{"goal":"value","load":[0,1,2,3]},"jet":"plane"}');  
 		System.debug(jmap.edit(4,'key:load|1'));  
@@ -372,44 +187,17 @@ public class JSONObjectTest{
 		System.debug(jmap.remove(''));  
 	}  
 	@isTest  
-	/** 
-	* Name: testRemoveIndex 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testRemoveIndex(){  
 		JSONObject jmap = new JSONObject('[0,1,2,3]');  
 		System.debug(jmap.edit(4,1));  
 		System.debug(jmap.remove(1));  
 	}  
 	@isTest  
-	/** 
-	* Name: testDummyAdd 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testDummyAdd(){  
 		JSONObject dummy = new JSONObject('{"key":{"goal":"value","load":[0,1,2,3]}}');  
 		System.debug(dummy.add('value','key'));  
 	}  
 	@isTest  
-	/** 
-	* Name: testEdit 
-	* Purpose: The purpose of this method is to ensure tests are covered and errors in JSONObject.cls are detected early.  . 
-	*  
-	* Who            When           Ref            What                      
-	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
-	* ---------------------------------------------------------------------- 
-	**/ 
 	public static void testEdit(){  
 		JSONObject jso = new JSONObject('{}');  
 		System.debug(jso.edit('man','power'));  

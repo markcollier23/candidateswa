@@ -31,6 +31,13 @@
     <notificationTypeSettings>
         <notificationChannels>
             <desktopEnabled>true</desktopEnabled>
+            <mobileEnabled>false</mobileEnabled>
+        </notificationChannels>
+        <notificationType>cc_export_success</notificationType>
+    </notificationTypeSettings>
+    <notificationTypeSettings>
+        <notificationChannels>
+            <desktopEnabled>true</desktopEnabled>
             <mobileEnabled>true</mobileEnabled>
         </notificationChannels>
         <notificationType>chatter_comment_on_post</notificationType>
@@ -286,5 +293,12 @@
             <mobileEnabled>true</mobileEnabled>
         </notificationChannels>
         <notificationType>wave_condition</notificationType>
+    </notificationTypeSettings>
+    <notificationTypeSettings>
+        <notificationChannels>
+            <desktopEnabled>true</desktopEnabled>
+            <mobileEnabled>true</mobileEnabled>
+        </notificationChannels>
+        <notificationType>Case_Notification</notificationType>
     </notificationTypeSettings>
 </NotificationTypeConfig>

@@ -11,7 +11,7 @@
     <enableContentSupportMultiLanguage>false</enableContentSupportMultiLanguage>
     <enableContentWorkspaceAccess>true</enableContentWorkspaceAccess>
     <enableDeleteFileInContentPacks>false</enableDeleteFileInContentPacks>
-    <enableFileIngestToDataCloud>true</enableFileIngestToDataCloud>
+    <enableFileIngestToDataCloud>false</enableFileIngestToDataCloud>
     <enableFileShareSetByRecord>false</enableFileShareSetByRecord>
     <enableFilesUsrShareNetRestricted>false</enableFilesUsrShareNetRestricted>
     <enableJPGPreviews>false</enableJPGPreviews>

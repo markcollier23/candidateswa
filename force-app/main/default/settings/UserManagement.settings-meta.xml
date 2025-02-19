@@ -3,17 +3,17 @@
     <enableCanAnswerContainUsername>true</enableCanAnswerContainUsername>
     <enableConcealPersonalInfo>true</enableConcealPersonalInfo>
     <enableContactlessExternalIdentityUsers>false</enableContactlessExternalIdentityUsers>
-    <enableEnhancedConcealPersonalInfo>true</enableEnhancedConcealPersonalInfo>
+    <enableEnhancedConcealPersonalInfo>false</enableEnhancedConcealPersonalInfo>
     <enableEnhancedPermsetMgmt>false</enableEnhancedPermsetMgmt>
     <enableEnhancedProfileMgmt>true</enableEnhancedProfileMgmt>
     <enableEnhcUiUserAccessPolicies>false</enableEnhcUiUserAccessPolicies>
-    <enableNewProfileUI>true</enableNewProfileUI>
+    <enableNewProfileUI>false</enableNewProfileUI>
     <enableProfileFiltering>false</enableProfileFiltering>
     <enableRestrictEmailDomains>false</enableRestrictEmailDomains>
     <enableScrambleUserData>false</enableScrambleUserData>
     <enableUserSelfDeactivate>false</enableUserSelfDeactivate>
     <enhancedUserListView>false</enhancedUserListView>
-    <groupSummaryUIEnhancement>true</groupSummaryUIEnhancement>
+    <groupSummaryUIEnhancement>false</groupSummaryUIEnhancement>
     <permsetsInFieldCreation>false</permsetsInFieldCreation>
     <psaExpirationUIEnabled>true</psaExpirationUIEnabled>
     <restrictedProfileCloning>false</restrictedProfileCloning>

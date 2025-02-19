@@ -16,6 +16,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>PartyRoleId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>DataUsePurposeId</field>
             </layoutItems>
             <layoutItems>
@@ -23,11 +27,11 @@
                 <field>EffectiveFrom</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>CaptureSource</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>CaptureDate</field>
             </layoutItems>
             <layoutItems>
@@ -41,6 +45,10 @@
                 <field>ContactPointType</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>BusinessBrandId</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>PrivacyConsentStatus</field>
             </layoutItems>
@@ -49,7 +57,7 @@
                 <field>EffectiveTo</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>CaptureContactPointType</field>
             </layoutItems>
             <layoutItems>

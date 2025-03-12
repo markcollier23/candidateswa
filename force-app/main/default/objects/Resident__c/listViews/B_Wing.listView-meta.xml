@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B_Wing</fullName>
+    <columns>Room_Number__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>Admission_Date__c</columns>
+    <columns>Last_Care_Plan_Evaluation__c</columns>
+    <columns>Next_Care_Plan_Evaluation__c</columns>
+    <columns>Classification__c</columns>
+    <columns>Assessment_Date__c</columns>
+    <columns>Past_Classification__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Wing__c</field>
+        <operation>equals</operation>
+        <value>B</value>
+    </filters>
+    <label>B Wing</label>
+</ListView>

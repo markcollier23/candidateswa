@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Room_Number__c</fields>
+    <fields>First_Name__c</fields>
+    <fields>Admission_Date__c</fields>
+    <fields>Last_Care_Plan_Evaluation__c</fields>
+    <fields>Assessment_Date__c</fields>
+    <fields>AN_ACC_Classification__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

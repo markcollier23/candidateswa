@@ -66,7 +66,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>January</value>
+            <value>February</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
@@ -76,7 +76,7 @@
         <field>Resident__c.Stage__c</field>
         <sortOrder>Desc</sortOrder>
     </groupingsDown>
-    <name>January Care Plan Evaluation</name>
+    <name>February 2025 Care Plan Evaluation</name>
     <params>
         <name>co</name>
         <value>1</value>

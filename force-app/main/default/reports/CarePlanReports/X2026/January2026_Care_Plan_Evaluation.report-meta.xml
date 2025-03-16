@@ -12,6 +12,7 @@
         <enableHoverLabels>false</enableHoverLabels>
         <expandOthers>false</expandOthers>
         <groupingColumn>Resident__c.Stage__c</groupingColumn>
+        
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
         <showAxisLabels>true</showAxisLabels>
@@ -65,7 +66,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>July</value>
+            <value>January</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
@@ -75,7 +76,7 @@
         <field>Resident__c.Stage__c</field>
         <sortOrder>Desc</sortOrder>
     </groupingsDown>
-    <name>July Care Plan Evaluation</name>
+    <name>January 2026 Care Plan Evaluation</name>
     <params>
         <name>co</name>
         <value>1</value>

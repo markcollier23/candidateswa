@@ -75,7 +75,7 @@
         <field>Resident__c.Stage__c</field>
         <sortOrder>Desc</sortOrder>
     </groupingsDown>
-    <name>December Care Plan Evaluation</name>
+    <name>December 2026 Care Plan Evaluation</name>
     <params>
         <name>co</name>
         <value>1</value>

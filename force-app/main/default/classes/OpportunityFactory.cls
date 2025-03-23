@@ -12,7 +12,6 @@ public class OpportunityFactory {
         'Parking lot array SolarBots'
     };
 
-    private static final List<String> MODEL_VALUES = PicklistUtil.getValues(Opportunity.SolarBot_Model__c.getDescribe());
     private static final List<String> STAGE_VALUES = PicklistUtil.getValues(Opportunity.StageName.getDescribe());
     private static String STAGE_CLOSED_LOST = 'Closed Won';
     private static String STAGE_CLOSED_WON = 'Closed Lost';
@@ -36,7 +35,6 @@ public class OpportunityFactory {
         oppty.AccountId = account.id;   
         oppty.Name = account.Name +' '+ opptyNameSuffix;
         oppty.Amount = RandomGenerator.getIntFromRange(15000, 200000);
-        oppty.SolarBot_Model__c = RandomGenerator.getStringFromList(MODEL_VALUES);
         oppty.Type = TYPE;
         oppty.StageName = RandomGenerator.getStringFromList(STAGE_VALUES);
         if (oppty.StageName == STAGE_CLOSED_LOST || oppty.StageName == STAGE_CLOSED_WON) {

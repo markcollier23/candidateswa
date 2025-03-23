@@ -45,6 +45,12 @@
         <field>Resident__c.Last_Care_Plan_Evaluation__c</field>
     </columns>
     <columns>
+        <field>Resident__c.Due_Care_Plan_Evaluation__c</field>
+    </columns>
+    <columns>
+        <field>Resident__c.This_Care_Plan_Evaluation__c</field>
+    </columns>
+    <columns>
         <field>Resident__c.Next_Care_Plan_Evaluation__c</field>
     </columns>
     <columns>
@@ -60,12 +66,34 @@
         <field>Resident__c.Wing__c</field>
     </columns>
     <filter>
+        <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
         <criteriaItems>
-            <column>Resident__c.Care_Plan_Evaluation__c</column>
+            <column>Resident__c.Due_Care_Plan_Evaluation__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>equals</operator>
-            <value>May</value>
+            <operator>greaterOrEqual</operator>
+            <value>5/1/2026</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Resident__c.Due_Care_Plan_Evaluation__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessOrEqual</operator>
+            <value>5/31/2026</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Resident__c.Next_Care_Plan_Evaluation__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>5/1/2026</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Resident__c.Next_Care_Plan_Evaluation__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessOrEqual</operator>
+            <value>5/31/2026</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
@@ -88,7 +116,7 @@
     <sortColumn>Resident__c.Room_Number__c</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
-        <dateColumn>Resident__c.Next_Care_Plan_Evaluation__c</dateColumn>
-        <interval>INTERVAL_CURNEXTY</interval>
+        <dateColumn>Resident__c.Admission_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>

@@ -15,9 +15,19 @@
                 <label>Open</label>
             </value>
             <value>
-                <fullName>Completed</fullName>
+                <fullName>Completed 2024</fullName>
                 <default>false</default>
-                <label>Completed</label>
+                <label>Completed 2024</label>
+            </value>
+            <value>
+                <fullName>Completed 2025</fullName>
+                <default>false</default>
+                <label>Completed 2025</label>
+            </value>
+            <value>
+                <fullName>Completed 2026</fullName>
+                <default>false</default>
+                <label>Completed 2026</label>
             </value>
         </valueSetDefinition>
     </valueSet>

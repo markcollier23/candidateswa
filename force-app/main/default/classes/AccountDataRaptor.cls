@@ -53,7 +53,7 @@ public class AccountDataRaptor extends AccountDataRaptorLoad{
 	public Map<String,Account> getRegioncs(List<Account> records){ 
 		Map<String,Account> recordMap = new Map<String,Account>(); 
 		for(Account record:records){ 
-			recordMap.put(record.Region__c,record); 
+			recordMap.put(record.BillingAddress,record); 
 		} 
 		return recordMap; 
 	} 

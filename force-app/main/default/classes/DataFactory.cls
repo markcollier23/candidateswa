@@ -43,6 +43,7 @@ public class DataFactory {
         if (Test.isRunningTest()) {
             return null;
         }
+        return runningJobId;
     }
 
 }

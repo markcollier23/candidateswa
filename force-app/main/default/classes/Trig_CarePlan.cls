@@ -63,7 +63,7 @@ public class Trig_CarePlan implements TriggerInterface {
 			'His' => 'Proximal__c'
 		};
 		List<Care_Plan__c> newRecords = new List<Care_Plan__c>();
-		Set<String> fields = new Set<String>{'Personal_Goals__c','Personal_Goals_OHAT__c','Personal_Strategies__c','Personal_Strategies_OHAT__c'};
+		Set<String> fields = new Set<String>{'Personal_Goals__c','Personal_Goals_OHAT__c','Personal_Strategies__c','Personal_Strategies_OHAT__c','Continence_Personal_Strategies__c','Nutritional_Risk_Strategies__c','Toileting_Personal_Strategies__c','Foot_Care_1__c','Foot_Care_2__c'};
 		Set<Id> residentIds = new Set<Id>();
 		Set<Id> carePlanIds = new Set<Id>();
 		String carePlanQuery = query(new Set<String>{'General_Care_Plan__c','Resident__c'},'Care_Plan__c')+' WHERE Id IN: careIds';
@@ -93,13 +93,14 @@ public class Trig_CarePlan implements TriggerInterface {
 							if(String.isNotBlank(substitute)){
 								String residentField = replaceMap.get(text);
 								String residentValue = String.valueOf(resident.get(residentField));
-								String lowerCaseResidentValue = residentValue.toLowerCase();
-								if(residentField=='First_Name__c'){
-									lowerCaseResidentValue = residentValue.toLowerCase().capitalize();
-									residentValue = lowerCaseResidentValue;
-									value = value.replace(' '+substitute,' '+residentValue);
-								}
 								if(String.isNotBlank(residentValue)){
+									String lowerCaseResidentValue = residentValue.toLowerCase();
+									if(residentField=='First_Name__c'){
+										lowerCaseResidentValue = residentValue.toLowerCase().capitalize();
+										residentValue = lowerCaseResidentValue;
+										value = value.replace(' '+substitute,' '+residentValue);
+										value = value.replace(substitute+' ',residentValue+' ');
+									}
 									value = value.replace('- '+substitute+' ','- '+residentValue+' ');
 									value = value.replace('. '+substitute+' ','. '+residentValue+' ');
 									value = value.replace('.'+substitute+' ','.'+residentValue+' ');

@@ -15,5 +15,4 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Transaction_UtilityBar</utilityBar>
 </CustomApplication>

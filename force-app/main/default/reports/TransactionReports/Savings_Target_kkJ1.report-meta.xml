@@ -55,6 +55,9 @@
         <field>Transactions__c.Description__c</field>
     </columns>
     <columns>
+        <field>Transactions__c.Type__c</field>
+    </columns>
+    <columns>
         <aggregateTypes>Sum</aggregateTypes>
         <field>Transactions__c.Debit__c</field>
     </columns>
@@ -108,7 +111,7 @@
         <field>Transactions__c.Month__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Copy of Saving Tracker</name>
+    <name>Saving Tracker</name>
     <params>
         <name>co</name>
         <value>1</value>

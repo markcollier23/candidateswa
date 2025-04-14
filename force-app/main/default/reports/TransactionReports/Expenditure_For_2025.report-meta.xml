@@ -15,8 +15,8 @@
         <groupingColumn>Transactions__c.Month__c</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
-        <secondaryGroupingColumn>Transactions__c.Type__c</secondaryGroupingColumn>
-        <showAxisLabels>false</showAxisLabels>
+        <secondaryGroupingColumn>FK_$Transaction_Type__c.Category__c</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
         <showPercentage>false</showPercentage>
         <showTotal>false</showTotal>
         <showValues>false</showValues>
@@ -42,51 +42,45 @@
     </columns>
     <filter>
         <criteriaItems>
-            <column>Transactions__c.Type__c</column>
+            <column>Transactions__c.Date__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value>Internal Transfer</value>
+            <operator>greaterOrEqual</operator>
+            <value>1/1/2025</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Type__c</column>
+            <column>Transactions__c.Date__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value>Axie</value>
+            <operator>lessOrEqual</operator>
+            <value>12/31/2025</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Type__c</column>
+            <column>FK_$Transaction_Type__c.Category__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
-            <value>Cash Out/Rent</value>
+            <value>ATM,Internal Transfer</value>
         </criteriaItems>
-        <criteriaItems>
-            <column>Transactions__c.Type__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value>Flights</value>
-        </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Matrix</format>
     <groupingsAcross>
         <dateGranularity>Day</dateGranularity>
-        <field>Transactions__c.Type__c</field>
+        <field>FK_$Transaction_Type__c.Category__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsAcross>
     <groupingsDown>
-        <dateGranularity>Month</dateGranularity>
+        <dateGranularity>Day</dateGranularity>
         <field>Transactions__c.Month__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Monthly Spending</name>
+    <name>2025 Expenditure Report</name>
     <params>
         <name>co</name>
-        <value>0</value>
+        <value>1</value>
     </params>
-    <reportType>CustomEntity$Transactions__c</reportType>
+    <reportType>CustomEntity$Transactions__c@Transactions__c.Type__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>

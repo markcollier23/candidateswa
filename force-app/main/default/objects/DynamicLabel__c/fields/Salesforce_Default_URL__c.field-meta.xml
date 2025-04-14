@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Default_URL__c</fullName>
+    <label>Salesforce Default URL</label>
+    <required>false</required>
+	<externalId>false</externalId>
+	<description>URL of this Salesforce Org.</description>
+	<encryptionScheme>None</encryptionScheme>
+	<type>Url</type>
+</CustomField>

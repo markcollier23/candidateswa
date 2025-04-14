@@ -9,12 +9,14 @@
             <axisBinding>y</axisBinding>
             <column>Transactions__c.Debit__c</column>
         </chartSummaries>
-        <chartType>Line</chartType>
+        <chartType>HorizontalBarStacked</chartType>
         <enableHoverLabels>false</enableHoverLabels>
         <expandOthers>true</expandOthers>
-        <groupingColumn>Transactions__c.Date__c</groupingColumn>
+        <groupingColumn>Transactions__c.Month__c</groupingColumn>
+        <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
-        <showAxisLabels>false</showAxisLabels>
+        <secondaryGroupingColumn>FK_$Transaction_Type__c.Category__c</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
         <showPercentage>false</showPercentage>
         <showTotal>false</showTotal>
         <showValues>false</showValues>
@@ -22,95 +24,83 @@
         <summaryAxisRange>Auto</summaryAxisRange>
         <textColor>#000000</textColor>
         <textSize>12</textSize>
-        <title>Spendometer</title>
         <titleColor>#000000</titleColor>
         <titleSize>18</titleSize>
     </chart>
     <columns>
-        <field>Transactions__c.Description__c</field>
+        <field>Transactions__c.Date__c</field>
     </columns>
     <columns>
-        <field>Transactions__c.Type__c</field>
+        <field>Transactions__c.Description__c</field>
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
         <field>Transactions__c.Debit__c</field>
     </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
     <filter>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transactions__c.Date__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>notContain</operator>
-            <value>Internal Transfer</value>
+            <operator>greaterOrEqual</operator>
+            <value>1/1/2024</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transactions__c.Date__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>notContain</operator>
-            <value>TFR Westpac</value>
+            <operator>lessOrEqual</operator>
+            <value>12/31/2024</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>FK_$Transaction_Type__c.Category__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>notContain</operator>
-            <value>Everyday</value>
+            <operator>notEqual</operator>
+            <value>ATM,Internal Transfer</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Debit__c</column>
+            <column>Transactions__c.Month__c</column>
             <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>greaterThan</operator>
-            <value>0</value>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>April</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>FK_$Transaction_Type__c.Category__c</column>
             <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notContain</operator>
-            <value>James R</value>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Unidentified</value>
         </criteriaItems>
-        <criteriaItems>
-            <column>Transactions__c.Description__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notContain</operator>
-            <value>BUDGET DIRECT</value>
-        </criteriaItems>
-        <criteriaItems>
-            <column>Transactions__c.Description__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notContain</operator>
-            <value>VIC ROADS</value>
-        </criteriaItems>
-        <criteriaItems>
-            <column>Transactions__c.Description__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notContain</operator>
-            <value>WOOLWORTHS</value>
-        </criteriaItems>
+        <language>en_US</language>
     </filter>
-    <format>Summary</format>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Transaction_Type__c.Category__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
     <groupingsDown>
-        <field>Transactions__c.Date__c</field>
+        <dateGranularity>Day</dateGranularity>
+        <field>Transactions__c.Month__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Spending Habits</name>
+    <name>2024 Expenditure Report</name>
     <params>
         <name>co</name>
-        <value>0</value>
+        <value>1</value>
     </params>
-    <reportType>CustomEntity$Transactions__c</reportType>
+    <reportType>CustomEntity$Transactions__c@Transactions__c.Type__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>Transactions__c.Date__c</dateColumn>
-        <interval>INTERVAL_LASTMONTH</interval>
+        <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>

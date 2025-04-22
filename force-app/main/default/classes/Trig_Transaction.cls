@@ -58,6 +58,10 @@ public class Trig_Transaction implements TriggerInterface {
 			}else{
 				record.put('Type__c',transactionType.Id);
 			}
+			Decimal debit = (Decimal)record.get('Debit__c');
+			if(debit<0){
+				record.put('Debit__c',-debit);
+			}
 		}
 		return typeMap;
 	}

@@ -28,7 +28,7 @@
     </chart>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
-        <field>Resident__c.Room_Number__c</field>
+        <field>Resident__c.Last_Name__c</field>
     </columns>
     <columns>
         <field>Resident__c.First_Name__c</field>
@@ -114,7 +114,7 @@
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
-    <sortColumn>Resident__c.Room_Number__c</sortColumn>
+    <sortColumn>Resident__c.Last_Name__c</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>Resident__c.Admission_Date__c</dateColumn>

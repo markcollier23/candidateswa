@@ -162,13 +162,13 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Resident</label>
     <nameField>
-        <label>Last Name</label>
+        <label>Room Number</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Residents</pluralLabel>
     <searchLayouts>
-        <searchResultsAdditionalFields>Room_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Last_Name__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>First_Name__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Admission_Date__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Last_Care_Plan_Evaluation__c</searchResultsAdditionalFields>

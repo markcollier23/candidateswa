@@ -68,7 +68,8 @@ public class Trig_Transaction implements TriggerInterface {
 	public Transaction_Type__c getTransactionType(String description,Map<Id,Transaction_Type__c> typeMap,Transaction_Type__c unidentified){
 		for(Id recordId:typeMap.keySet()){
 			Transaction_Type__c record = typeMap.get(recordId);
-			if(description.contains(record.Name)){
+			String name = record.Name;
+			if(description.toLowerCase().contains(name.toLowerCase())){
 				return record;
 			}
 		}

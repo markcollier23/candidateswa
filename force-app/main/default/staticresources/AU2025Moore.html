@@ -1,0 +1,112 @@
+<html>
+  <body>
+    <h1>Candidates for the Moore Electorate</h1>
+    <p>
+      Your choice for this election is a choice that will shape the future for Australia.<br>
+      Australia needs to have a government which will not abuse their power and will standup for the interests of the people.<br>
+      I have researched every candidate and have provided references to their policies and statements.<br>
+      Please ensure you number each and every candidate if you want your vote to be counted.<br>
+    </p>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      ul{
+        list-style-type: none;
+      }
+      .caret {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+      }
+      .caret::before {
+        content: "\25B6";
+        color: black;
+        display: inline-block;
+        margin-right: 6px;
+      }
+      .caret-down::before {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */'
+        transform: rotate(90deg);
+      }
+      .nested {
+        display: none;
+      }
+      .active {
+        display: block;
+      }
+    </style>
+    <ul>
+      <li>
+          <span class="caret">1. Nathan Barton (<a href="https://www.nathanbarton.com.au/" target="_blank">Independent</a>)</span>
+          <ul class="nested">
+            Kate Chaney is committed to tacking the critical issues facing Australia today. <br>
+            She is committed to restoring integrity, professional development and transparency in politics.<br>
+            She aims to pursue community based incentives and initiatives which bring ebullient outcomes for local residents.<br>
+            She is free to represent the community’s interests and not the interests of political backers or corporate sponsors.<br>
+            She will will pursue a balanced, evidence based scientific approach when it comes to tackling the major issues.
+        </ul>
+      </li>
+      <li>
+        <span class="caret">2. Scott McCarthy (<a href="https://greens.org.au/wa/person/scott-mccarthy" target="_blank">Greens</a>)</span>
+        <ul class="nested">
+          This party has made excellent use of scientific research to develop it's policies.<br>
+          They have constructed a well thought out plan to transition towards Green Energy future.<br>
+          This party is aware and active of all the surrounding issues that are involved in pushing ahead through it's plans.<br>
+        </ul>
+      </li>
+      <li>
+        <span class="caret">3. Tom French (<a href="https://www.alp.org.au/our-people/our-people/tom-french/" target="_blank">Labor</a>)</span>
+        <ul class="nested">
+          This party is introducing legislation to cap campaign spending for Independent candidates at $800k and donations at $600k to reduce their influence in Australia.<br>
+          Under this legislation, political partical parties campaign will be capped at <a href="https://www.abc.net.au/news/2024-11-14/labor-unveils-electoral-reform-plans/104602248" target="_blank">$90 million</a>.<br>
+          Due to the fact that Labor was successful at the last election, they will receive an extra $20 million of tax payer funded money because their primary vote is greater than 4%.<br>
+          The Liberals approved this bill as they will also receive the $20 million benefit.
+        </ul>
+      </li>
+      <li>
+        <span class="caret">4. Trevor Alan Bartley (<a href="https://australianchristians.org.au/candidate/vanessa-montgomery-pearce/" target="_blank">Australian Christians</a>)</span>
+        <ul class="nested">
+          This party has well researched policies over Immigration and Small Business and they look pretty good.<br>
+          Unfortunately this party does not believe in Climate Change and they believe that Renewable Energy is one of the worst sources of power.<br>
+          This party wants to allow prostitutes to sell sex but criminalise the buyers.<br>
+        </ul>
+      </li>
+      <li>
+        <span class="caret">5. Ian Goodenough (<a href="https://www.liberal.org.au/" target="_blank">Liberal</a>)</span>
+        <ul class="nested">
+          On the 8th February 2025, Australia has made a <a href="https://www.abc.net.au/news/2025-02-08/donald-trump-supportive-of-aukus-pete-hegseth-says/104913062">$795 million payment directly to the United States</a> as part of their $368 billion AUKUS deal.<br>
+          This brings the total amount of money sent to the United States from Australia at $4.7 Billion since the Liberal government announced the policy.
+        </ul>
+      </li>
+      <li>
+        <span class="caret">6. Vince Connelly (<a href="https://www.liberal.org.au/" target="_blank">Liberal</a>)</span>
+        <ul class="nested">
+          On the 8th February 2025, Australia has made a <a href="https://www.abc.net.au/news/2025-02-08/donald-trump-supportive-of-aukus-pete-hegseth-says/104913062">$795 million payment directly to the United States</a> as part of their $368 billion AUKUS deal.<br>
+          This brings the total amount of money sent to the United States from Australia at $4.7 Billion since the Liberal government announced the policy.
+        </ul>
+      </li>
+      <li>
+        <span class="caret">7. Christopher Rennick (<a href="https://trumpetofpatriots.org/candidates/christopher-rennick/" target="_blank">Trumpet of Patriots</a>)</span>
+        <ul class="nested">
+          This is a far right wing Trump style anti-immigration party.<br>
+          This party is against multiculturalism therefore they would like to allow discrimination on the grounds of race and religion.<br>
+          Under this party it will be very likely that asylum seekers and refugees will be killed "mysteriously"<br>
+          They will support policies of Donald Trump such as mandating the use of plastic straws and plastic bags as opposed to environmentally friendly options.<br>
+          This party supports an oligarchy of agendas that will promote the interests of billionaires at the expense of ordinary citizens. 
+        </ul>
+      </li>
+    </ul>
+    <script>
+      var toggler = document.getElementsByClassName("caret");
+      var i;
+      for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+          this.parentElement.querySelector(".nested").classList.toggle("active");
+          this.classList.toggle("caret-down");
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+  <body>
+    <h1>Candidates for the Pearce Electorate</h1>
+    <p>
+      Your choice for this election is a choice that will shape the future for Australia.<br>
+      Australia needs to have a government which will not abuse their power and will standup for the interests of the people.<br>
+      I have researched every candidate and have provided references to their policies and statements.<br>
+      Please ensure you number each and every candidate if you want your vote to be counted.<br>
+    </p>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      ul{
+        list-style-type: none;
+      }
+      .caret {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+      }
+      .caret::before {
+        content: "\25B6";
+        color: black;
+        display: inline-block;
+        margin-right: 6px;
+      }
+      .caret-down::before {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */'
+        transform: rotate(90deg);
+      }
+      .nested {
+        display: none;
+      }
+      .active {
+        display: block;
+      }
+    </style>
+    <ul>
+      
+      <li>
+        <span class="caret">1. Nicholas D'Alonzo (<a href="https://greens.org.au/wa/person/nicholas-dalonzo-0" target="_blank">Greens</a>)</span>
+        <ul class="nested">
+          This party has made excellent use of scientific research to develop it's policies.<br>
+          They have constructed a well thought out plan to transition towards Green Energy future.<br>
+          This party is aware and active of all the surrounding issues that are involved in pushing ahead through it's plans.<br>
+        </ul>
+      </li>
+      <li>
+        <span class="caret">2. Tracey Roberts (<a href="https://www.alp.org.au/our-people/our-people/tracey-roberts/" target="_blank">Labor</a>)</span>
+        <ul class="nested">
+          This party is introducing legislation to cap campaign spending for Independent candidates at $800k and donations at $600k to reduce their influence in Australia.<br>
+          Under this legislation, political partical parties campaign will be capped at <a href="https://www.abc.net.au/news/2024-11-14/labor-unveils-electoral-reform-plans/104602248" target="_blank">$90 million</a>.<br>
+          Due to the fact that Labor was successful at the last election, they will receive an extra $20 million of tax payer funded money because their primary vote is greater than 4%.<br>
+          The Liberals approved this bill as they will also receive the $20 million benefit.
+        </ul>
+      </li>
+      <li>
+        <span class="caret">3. Vanessa Montgomery (<a href="https://australianchristians.org.au/candidate/vanessa-montgomery-pearce/" target="_blank">Australian Christians</a>)</span>
+        <ul class="nested">
+          This party has well researched policies over Immigration and Small Business and they look pretty good.<br>
+          Unfortunately this party does not believe in Climate Change and they believe that Renewable Energy is one of the worst sources of power.<br>
+          This party wants to allow prostitutes to sell sex but criminalise the buyers.<br>
+      </ul>
+    </li>
+      <li>
+          <span class="caret">4. Jan Norberger (<a href="https://www.liberal.org.au/" target="_blank">Liberal</a>)</span>
+          <ul class="nested">
+            On the 8th February 2025, Australia has made a <a href="https://www.abc.net.au/news/2025-02-08/donald-trump-supportive-of-aukus-pete-hegseth-says/104913062">$795 million payment directly to the United States</a> as part of their $368 billion AUKUS deal.<br>
+            This brings the total amount of money sent to the United States from Australia at $4.7 Billion since the Liberal government announced the policy.
+          </ul>
+      </li>
+      <li>
+        <span class="caret">5. Ramon Granados Rangel (<a href="https://www.legalisecannabis.org.au/meet_our_house_of_representative_candidates" target="_blank">Legalise Cannabis</a>)</span>
+        <ul class="nested">
+          This party wants to stop mandatory vaccination programs. They have well researched policies over Immigration and Small Business and they look pretty good.<br>
+          Unfortunately this party does not believe in Climate Change and they believe that Renewable Energy is one of the worst sources of power.<br>
+          This party wants to allow prostitutes to sell sex but criminalise the buyers.<br>      
+        </ul>
+      </li>
+      <li>
+        <span class="caret">6. John Burton (<a href = "https://www.onenation.org.au/candidates">One Nation</a>)</span>
+        <ul class="nested">
+          This is a far right wing Trump style anti-immigration party.<br>
+          They want to remove Australia from the United Nations Refugee Convention and intensify the abuse of refugees in detention centres. <br>
+          They want to allow discrimination on the grounds of race and religion in order to support a Trump like ban on certain countries with a high percentage of Muslims.<br>
+          Under this party it will be very likely that asylum seekers and refugees will be killed "mysteriously"<br>
+          One Nation wants to build more coal fired power stations.<br>
+        </ul>
+      </li>
+    </ul>
+    <script>
+      var toggler = document.getElementsByClassName("caret");
+      var i;
+      for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+          this.parentElement.querySelector(".nested").classList.toggle("active");
+          this.classList.toggle("caret-down");
+        });
+      }
+    </script>
+  </body>
+</html>

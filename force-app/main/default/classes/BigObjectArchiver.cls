@@ -9,9 +9,7 @@
 **/
 global class BigObjectArchiver implements Database.Batchable<SObject>, Database.AllowsCallouts, Database.Stateful {
 	private List<Id> recordIds = new List<Id>();
-	private BigObjectArchiverHandler archiver = null;
-	private Date startDate = null;
-	private Date endDate = null;
+	public BigObjectArchiverHandler archiver = null;
 	/**
 	* Name: BigObjectArchiver
 	* Purpose: Constructor used to control and direct the neccessary operations for this Apex Class.
@@ -21,10 +19,24 @@ global class BigObjectArchiver implements Database.Batchable<SObject>, Database.
 	* Mark Collier   30/04/2025     trans          Constructor was created. 
 	* ----------------------------------------------------------------------
 	**/
-	global BigObjectArchiver(BigObjectArchiverHandler archiverParameter,DateTime startDateParameter,DateTime endDateParameter){
-		archiver = archiverParameter;
-		startDate = startDateParameter.date();
-		endDate = endDateParameter.date();
+	global BigObjectArchiver(SObject custom,SObject big,Map<String,String> positiveMap,Map<String,String> negativeMap,String conditionField,DateTime startDateParameter,DateTime endDateParameter){
+		archiver = new BigObjectArchiverHandler(custom,big,conditionField,positiveMap,negativeMap);
+		archiver.startDate = startDateParameter.date();
+		archiver.endDate = endDateParameter.date();
+	}
+	/**
+	* Name: BigObjectArchiver
+	* Purpose: Constructor used to control and direct the neccessary operations for this Apex Class.
+	* 
+	* Who            When           Ref            What                     
+	* ----------------------------------------------------------------------
+	* Mark Collier   30/04/2025     trans          Constructor was created. 
+	* ----------------------------------------------------------------------
+	**/
+	global BigObjectArchiver(SObject custom,SObject big,String conditionField,DateTime startDateParameter,DateTime endDateParameter){
+		archiver = new BigObjectArchiverHandler(custom,big,conditionField);
+		archiver.startDate = startDateParameter.date();
+		archiver.endDate = endDateParameter.date();
 	}
 	/**
 	* Name: start
@@ -56,7 +68,9 @@ global class BigObjectArchiver implements Database.Batchable<SObject>, Database.
 			}
 		}
 		query+=' FROM '+archiver.objectName+' WHERE ';
-		if(startDate!=endDate && String.isNotBlank(archiver.conditionField)){
+		Date startDate = archiver.startDate;
+		Date endDate = archiver.endDate;
+		if(archiver.startDate!=archiver.endDate && String.isNotBlank(archiver.conditionField)){
 			query+=archiver.conditionField+' <: startDate OR '+archiver.conditionField+' >: endDate ';
 		}
 		System.debug(query);

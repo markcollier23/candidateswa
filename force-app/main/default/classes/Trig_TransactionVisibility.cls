@@ -31,8 +31,6 @@ public class Trig_TransactionVisibility implements TriggerInterface {
 	public void beforeUpdate(Map<Id, SObject> mapNewRecords, Map<Id, SObject> mapOldRecords){
 		
 	}
-
-	
 	/**
 	* Name: beforeDelete
 	* Purpose: .

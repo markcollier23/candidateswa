@@ -2,12 +2,12 @@
 <Index xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Name</fullName>
     <fields>
-        <name>Amount__c</name>
-        <sortDirection>ASC</sortDirection>
-    </fields>
-    <fields>
         <name>Date__c</name>
         <sortDirection>DESC</sortDirection>
+    </fields>
+    <fields>
+        <name>Amount__c</name>
+        <sortDirection>ASC</sortDirection>
     </fields>
     <label>Name</label>
 </Index>

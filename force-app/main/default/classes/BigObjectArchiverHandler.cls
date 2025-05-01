@@ -16,6 +16,8 @@ public class BigObjectArchiverHandler implements Queueable, Database.AllowsCallo
 	public Set<String> fields = new Set<String>();
 	public Map<String,String> positiveBigToPositiveCustom = new Map<String,String>();
 	public Map<String,String> negativeBigToPositiveCustom = new Map<String,String>();
+	public Date startDate = null;
+	public Date endDate = null;
 	public List<String> notIncludedFields = new String[]{'id','createdbyid','createddate','systemmodstamp'};
 	/**
 	* Name: BigObjectArchiverHandler
@@ -26,15 +28,30 @@ public class BigObjectArchiverHandler implements Queueable, Database.AllowsCallo
 	* Mark Collier   01/05/2025     trans          Constructor was created. 
 	* ----------------------------------------------------------------------
 	**/
-	public BigObjectArchiverHandler(SObject customRecordParameter,SObject bigRecordParameter,String conditionFieldParameter,Set<String> fieldsParameter,Map<String,String> positiveBigToPositiveCustomParameter,Map<String,String> negativeBigToPositiveCustomParameter){
+	public BigObjectArchiverHandler(SObject customRecordParameter,SObject bigRecordParameter,String conditionFieldParameter,Map<String,String> positiveBigToPositiveCustomParameter,Map<String,String> negativeBigToPositiveCustomParameter){
 		customRecord = customRecordParameter;
 		bigRecord = bigRecordParameter;
 		objectName = String.valueOf(customRecordParameter.getSObjectType());
 		bigObjectName = String.valueOf(bigRecordParameter.getSObjectType());
-		fields = fieldsParameter;
 		conditionField = conditionFieldParameter;
 		positiveBigToPositiveCustom = positiveBigToPositiveCustomParameter;
 		negativeBigToPositiveCustom = negativeBigToPositiveCustomParameter;
+	}
+	/**
+	* Name: BigObjectArchiverHandler
+	* Purpose: Constructor used to control and direct the neccessary operations for this Apex Class.
+	* 
+	* Who            When           Ref            What                     
+	* ----------------------------------------------------------------------
+	* Mark Collier   01/05/2025     trans          Constructor was created. 
+	* ----------------------------------------------------------------------
+	**/
+	public BigObjectArchiverHandler(SObject customRecordParameter,SObject bigRecordParameter,String conditionFieldParameter){
+		customRecord = customRecordParameter;
+		bigRecord = bigRecordParameter;
+		objectName = String.valueOf(customRecordParameter.getSObjectType());
+		bigObjectName = String.valueOf(bigRecordParameter.getSObjectType());
+		conditionField = conditionFieldParameter;
 	}
 	/**
 	* Name: execute
@@ -50,7 +67,7 @@ public class BigObjectArchiverHandler implements Queueable, Database.AllowsCallo
 		String customRecordAttributes = JSON.serialize(customRecord);
 		Set<String> attributes = getJSON(bigObjectName);
 		for(SObject big:Database.query(getQuery(bigObjectName,true))){
-			SObject record = (SObject)JSON.deserializeUntyped(customRecordAttributes);
+			SObject record = (SObject)JSON.deserialize(customRecordAttributes,SObject.class);
 			for(String field:fields){
 				record.put(field,big.get(field));
 			}

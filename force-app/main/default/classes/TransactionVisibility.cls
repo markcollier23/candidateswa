@@ -39,7 +39,7 @@ public class TransactionVisibility implements Queueable, Database.AllowsCallouts
 		Map<String,String> creditMap = new Map<String,String>{'Amount__c' => 'Credit__c'};
 		Map<String,String> debitMap = new Map<String,String>{'Amount__c' => 'Debit__c'};
 		BigObjectArchiver archiver = new BigObjectArchiver(t,b,creditMap,debitMap,'Date__c',startDate,endDate);
-		List<SObject> bigObjectRecords = Database.query(archiver.getQuery('Transactions__b',false));
+		List<SObject> bigObjectRecords = Database.query(archiver.archiver.getQuery('Transactions__b',false));
 		TriggerFactory.bypassHandler(Trig_TransactionVisibility.class);
 			record.Amount__c = bigObjectRecords.size();
 			update record;

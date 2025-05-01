@@ -40,16 +40,6 @@
                 <label>Health</label>
             </value>
             <value>
-                <fullName>Internal Transfer</fullName>
-                <default>false</default>
-                <label>Internal Transfer</label>
-            </value>
-            <value>
-                <fullName>Unidentified</fullName>
-                <default>false</default>
-                <label>Unidentified</label>
-            </value>
-            <value>
                 <fullName>HECS</fullName>
                 <default>false</default>
                 <label>HECS</label>
@@ -58,6 +48,16 @@
                 <fullName>Hotel</fullName>
                 <default>false</default>
                 <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Internal Transfer</fullName>
+                <default>false</default>
+                <label>Internal Transfer</label>
+            </value>
+            <value>
+                <fullName>Unidentified</fullName>
+                <default>false</default>
+                <label>Unidentified</label>
             </value>
         </valueSetDefinition>
     </valueSet>

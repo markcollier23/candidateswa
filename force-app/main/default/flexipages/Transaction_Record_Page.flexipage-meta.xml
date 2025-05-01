@@ -17,7 +17,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Credit_Amount__c</fieldItem>
+                <fieldItem>Record.Credit__c</fieldItem>
                 <identifier>RecordCredit_Amount_cField</identifier>
             </fieldInstance>
         </itemInstances>
@@ -61,7 +61,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Description__c</fieldItem>
+                <fieldItem>Record.Narrative__c</fieldItem>
                 <identifier>RecordDescription_cField</identifier>
             </fieldInstance>
         </itemInstances>
@@ -153,7 +153,7 @@
     </flexiPageRegions>
     <masterLabel>Transactions Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>Transactions__c</sobjectType>
+    <sobjectType>Transaction__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

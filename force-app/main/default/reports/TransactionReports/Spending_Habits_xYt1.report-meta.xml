@@ -7,12 +7,12 @@
         <chartSummaries>
             <aggregate>Sum</aggregate>
             <axisBinding>y</axisBinding>
-            <column>Transactions__c.Debit__c</column>
+            <column>Transaction__c.Debit__c</column>
         </chartSummaries>
         <chartType>Line</chartType>
         <enableHoverLabels>false</enableHoverLabels>
         <expandOthers>true</expandOthers>
-        <groupingColumn>Transactions__c.Date__c</groupingColumn>
+        <groupingColumn>Transaction__c.Date__c</groupingColumn>
         <location>CHART_BOTTOM</location>
         <showAxisLabels>false</showAxisLabels>
         <showPercentage>false</showPercentage>
@@ -27,76 +27,77 @@
         <titleSize>18</titleSize>
     </chart>
     <columns>
-        <field>Transactions__c.Description__c</field>
+        <field>Transaction__c.Narrative__c</field>
     </columns>
     <columns>
-        <field>Transactions__c.Type__c</field>
+        <field>Transaction__c.Type__c</field>
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
-        <field>Transactions__c.Debit__c</field>
+        <field>Transaction__c.Debit__c</field>
     </columns>
     <filter>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transaction__c.Narrative__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notContain</operator>
             <value>Internal Transfer</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transaction__c.Narrative__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notContain</operator>
             <value>TFR Westpac</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transaction__c.Narrative__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notContain</operator>
             <value>Everyday</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Debit__c</column>
+            <column>Transaction__c.Debit__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>greaterThan</operator>
             <value>0</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transaction__c.Narrative__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notContain</operator>
             <value>James R</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transaction__c.Narrative__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notContain</operator>
             <value>BUDGET DIRECT</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transaction__c.Narrative__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notContain</operator>
             <value>VIC ROADS</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Description__c</column>
+            <column>Transaction__c.Narrative__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notContain</operator>
             <value>WOOLWORTHS</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>
-        <field>Transactions__c.Date__c</field>
+        <field>Transaction__c.Date__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Spending Habits</name>
@@ -104,13 +105,13 @@
         <name>co</name>
         <value>0</value>
     </params>
-    <reportType>CustomEntity$Transactions__c</reportType>
+    <reportType>CustomEntity$Transaction__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
-        <dateColumn>Transactions__c.Date__c</dateColumn>
+        <dateColumn>Transaction__c.Date__c</dateColumn>
         <interval>INTERVAL_LASTMONTH</interval>
     </timeFrameFilter>
 </Report>

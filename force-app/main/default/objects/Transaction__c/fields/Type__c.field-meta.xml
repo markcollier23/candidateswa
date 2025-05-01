@@ -4,8 +4,8 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <label>Type</label>
     <referenceTo>Transaction_Type__c</referenceTo>
-    <relationshipLabel>Transactions</relationshipLabel>
-    <relationshipName>Transactions</relationshipName>
+    <relationshipLabel>Transaction</relationshipLabel>
+    <relationshipName>Transaction</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>

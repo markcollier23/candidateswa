@@ -16,7 +16,7 @@ public class TriggerFactory {
 	* 
 	* Who            When           Ref            What            
 	* -------------------------------------------------------------
-	* Mark Collier   13/04/2025     trans          Transactions__c 
+	* Mark Collier   13/04/2025     trans          Transaction__c 
 	* -------------------------------------------------------------
 	**/
     public static void createAndExecuteHandler(Type vType) {
@@ -36,7 +36,7 @@ public class TriggerFactory {
 	* 
 	* Who            When           Ref            What            
 	* -------------------------------------------------------------
-	* Mark Collier   13/04/2025     trans          Transactions__c 
+	* Mark Collier   13/04/2025     trans          Transaction__c 
 	* -------------------------------------------------------------
 	**/
     private static void execute(TriggerInterface handler) {
@@ -72,7 +72,7 @@ public class TriggerFactory {
 	* 
 	* Who            When           Ref            What            
 	* -------------------------------------------------------------
-	* Mark Collier   13/04/2025     trans          Transactions__c 
+	* Mark Collier   13/04/2025     trans          Transaction__c 
 	* -------------------------------------------------------------
 	**/
     public static void bypassHandler(Type vType){
@@ -84,7 +84,7 @@ public class TriggerFactory {
 	* 
 	* Who            When           Ref            What            
 	* -------------------------------------------------------------
-	* Mark Collier   13/04/2025     trans          Transactions__c 
+	* Mark Collier   13/04/2025     trans          Transaction__c 
 	* -------------------------------------------------------------
 	**/
     public static void removeBypassHandler(Type vType){
@@ -96,7 +96,7 @@ public class TriggerFactory {
 	* 
 	* Who            When           Ref            What            
 	* -------------------------------------------------------------
-	* Mark Collier   13/04/2025     trans          Transactions__c 
+	* Mark Collier   13/04/2025     trans          Transaction__c 
 	* -------------------------------------------------------------
 	**/
     public static void removeAllBypassHandlers(){

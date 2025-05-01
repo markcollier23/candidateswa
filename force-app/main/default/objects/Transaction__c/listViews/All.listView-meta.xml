@@ -3,7 +3,7 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>Date__c</columns>
-    <columns>Description__c</columns>
+    <columns>Narrative__c</columns>
     <columns>Amount__c</columns>
     <filterScope>Everything</filterScope>
     <label>All Records</label>

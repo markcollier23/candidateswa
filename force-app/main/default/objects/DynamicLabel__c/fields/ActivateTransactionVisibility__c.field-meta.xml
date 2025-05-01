@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivateTransactionVisibility__c</fullName>
+    <label>ActivateTransactionVisibility</label>
+    <required>false</required>
+	<externalId>false</externalId>
+	<description>Indicates whether you would like to turn on or turn off TransactionVisibility.</description>
+    <defaultValue>false</defaultValue>
+	<type>Checkbox</type>
+</CustomField>

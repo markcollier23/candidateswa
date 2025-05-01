@@ -7,12 +7,12 @@
         <chartSummaries>
             <aggregate>Sum</aggregate>
             <axisBinding>y</axisBinding>
-            <column>Transactions__c.Debit__c</column>
+            <column>Transaction__c.Debit__c</column>
         </chartSummaries>
         <chartType>HorizontalBarStacked</chartType>
         <enableHoverLabels>false</enableHoverLabels>
         <expandOthers>true</expandOthers>
-        <groupingColumn>Transactions__c.Month__c</groupingColumn>
+        <groupingColumn>Transaction__c.Month__c</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
         <secondaryGroupingColumn>FK_$Transaction_Type__c.Category__c</secondaryGroupingColumn>
@@ -28,28 +28,25 @@
         <titleSize>18</titleSize>
     </chart>
     <columns>
-        <field>Transactions__c.Date__c</field>
+        <field>Transaction__c.Date__c</field>
     </columns>
     <columns>
-        <field>Transactions__c.Description__c</field>
-    </columns>
-    <columns>
-        <field>Transactions__c.Type__c</field>
+        <field>Transaction__c.Narrative__c</field>
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
-        <field>Transactions__c.Debit__c</field>
+        <field>Transaction__c.Debit__c</field>
     </columns>
     <filter>
         <criteriaItems>
-            <column>Transactions__c.Date__c</column>
+            <column>Transaction__c.Date__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>greaterOrEqual</operator>
             <value>1/1/2020</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Transactions__c.Date__c</column>
+            <column>Transaction__c.Date__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>lessOrEqual</operator>
@@ -72,7 +69,7 @@
     </groupingsAcross>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Transactions__c.Month__c</field>
+        <field>Transaction__c.Month__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>2020 Expenditure Report</name>
@@ -80,13 +77,13 @@
         <name>co</name>
         <value>1</value>
     </params>
-    <reportType>CustomEntity$Transactions__c@Transactions__c.Type__c</reportType>
+    <reportType>CustomEntity$Transaction__c@Transaction__c.Type__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
-        <dateColumn>Transactions__c.Date__c</dateColumn>
+        <dateColumn>Transaction__c.Date__c</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>

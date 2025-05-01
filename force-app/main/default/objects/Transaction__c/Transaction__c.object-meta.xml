@@ -129,7 +129,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Transactions_Record_Page</content>
+        <content>Transaction_Record_Page</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -137,7 +137,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Transactions_Record_Page</content>
+        <content>Transaction_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -159,7 +159,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Transactions</label>
+    <label>Transaction</label>
     <nameField>
         <label>Transaction Name</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -168,7 +168,7 @@
     <pluralLabel>Transactions</pluralLabel>
     <searchLayouts>
         <searchResultsAdditionalFields>Date__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Narrative__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Debit__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>

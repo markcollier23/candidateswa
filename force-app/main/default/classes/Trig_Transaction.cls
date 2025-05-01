@@ -4,13 +4,13 @@
 * 
 * Who            When           Ref            What            
 * -------------------------------------------------------------
-* Mark Collier   13/04/2025     trans          Transactions__c 
+* Mark Collier   13/04/2025     trans          Transaction__c 
 * -------------------------------------------------------------
 **/
 public class Trig_Transaction implements TriggerInterface {
 	/**
 	* Name: beforeInsert
-	* Purpose: To control and direct the necessary operations and actions required to be processed in the event that Transactions__c records are inserted, updated or deleted.
+	* Purpose: To control and direct the necessary operations and actions required to be processed in the event that Transaction__c records are inserted, updated or deleted.
 	* 
 	* Who            When           Ref            What                
 	* -----------------------------------------------------------------
@@ -22,11 +22,11 @@ public class Trig_Transaction implements TriggerInterface {
 		Set<Id> newIds = new Set<Id>();
 		for(SObject record:newRecords){
 			newIds.add((Id)record.get('Id'));
-			String name = String.valueOf(record.get('Date__c'))+String.valueOf(record.get('Description__c'));
+			String name = String.valueOf(record.get('Date__c'))+String.valueOf(record.get('Narrative__c'));
 			record.put('Name',name.left(80));
 			names.add(String.valueOf(record.get('Name')));
 		}
-		delete [SELECT Id FROM Transactions__c WHERE Name IN: names AND Id NOT IN: newIds];
+		delete [SELECT Id FROM Transaction__c WHERE Name IN: names AND Id NOT IN: newIds];
 		sortTransactions(newRecords,new Map<Id,SObject>());
 	}
 	/**
@@ -49,7 +49,7 @@ public class Trig_Transaction implements TriggerInterface {
 		}
 		for(SObject record:records){
 			Id recordId = (Id)record.get('Id');
-			Transaction_Type__c transactionType = getTransactionType(String.valueOf(record.get('Description__c')),typeMap,unidentified);
+			Transaction_Type__c transactionType = getTransactionType(String.valueOf(record.get('Narrative__c')),typeMap,unidentified);
 			if(mapOldRecords.containsKey(recordId)){
 				SObject oldRecord = mapOldRecords.get(recordId);
 				if(String.isBlank(String.valueOf(oldRecord.get('Type__c'))) || (Id)oldRecord.get('Type__c')==unidentified.Id){

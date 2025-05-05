@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Parent__c</fullName>
-    <deleteConstraint>SetNull</deleteConstraint>
-    <description>This field is used to copy and paste the previous reference to an API Payload Handler record that you have requested to clone.</description>
     <label>Parent Id</label>
-    <referenceTo>API_Payload_Handler__c</referenceTo>
-    <relationshipName>API_Payload_Handler</relationshipName>
     <required>false</required>
-    <trackHistory>false</trackHistory>
-    <trackTrending>false</trackTrending>
-    <type>Lookup</type>
+	<externalId>false</externalId>
+	<description>This field is used to copy and paste the previous reference to an API Payload Handler record that you have requested to clone.</description>
+	<type>Lookup</type>
+	<referenceTo>API_Payload_Handler__c</referenceTo>
+	<relationshipName>API_Payload_Handler</relationshipName>
 </CustomField>

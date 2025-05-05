@@ -4,7 +4,7 @@
 *  
 * Who            When           Ref            What             
 * ------------------------------------------------------------- 
-* Mark Collier   10/12/2024     API            All              
+* Mark Collier   11/12/2024     DD-37530     All              
 * ------------------------------------------------------------- 
 **/ 
 global class RestServiceClientBatch implements Database.Batchable<String>, Database.AllowsCallouts, Database.Stateful {   
@@ -21,7 +21,7 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 	*  
 	* Who            When           Ref            What                      
 	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Constructor was created.  
+	* Mark Collier   11/12/2024     DD-37530     Constructor was created.  
 	* ---------------------------------------------------------------------- 
 	**/ 
 	global RestServiceClientBatch(List<String> payloadsParameter){ 
@@ -33,7 +33,7 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 	*  
 	* Who            When           Ref            What                      
 	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
+	* Mark Collier   11/12/2024     DD-37530     Method has been created.  
 	* ---------------------------------------------------------------------- 
 	**/ 
 	global RestServiceClientBatch(String requestBody,String endpointURL){  
@@ -46,22 +46,24 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 	*  
 	* Who            When           Ref            What                    
 	* -------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            API_Payload_Handler__c  
+	* Mark Collier   11/12/2024     DD-37530     API_Payload_Handler__c  
 	* -------------------------------------------------------------------- 
 	**/ 
 	global Iterable<String> start(Database.BatchableContext bc) {   
 		System.debug('start method');   
-		payloadDetails = payloadHandler.beforeAPIRequest(payloadDetails);   
-		String req = payloadDetails.getBodyRequest();  
+		payloadDetails = payloadHandler.beforeAPIRequest(payloadDetails); 
+		String req = payloadDetails.getBodyRequest();
 		if(String.isNotBlank(req)){   
 			payloads = new List<String>();   
 			payloads.add(req);   
-		}   
+		}  
 		if(payloads.size()==0||payloads==null||payloads.get(0)==null){  
 			payloads = new List<String>();  
 			payloads.add(payloadDetails.getEndpoint());  
 			for(String endpointUrl:payloadDetails.getEndpoints()){ 
-				payloads.add(endpointUrl); 
+				if(endpointUrl!=payloadDetails.getEndpoint()){
+					payloads.add(endpointUrl); 
+				}
 			} 
 			requestBodyIsNotEmpty = false;  
 		} 
@@ -78,7 +80,7 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 	*  
 	* Who            When           Ref            What                      
 	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
+	* Mark Collier   11/12/2024     DD-37530     Method has been created.  
 	* ---------------------------------------------------------------------- 
 	**/ 
 	global void execute(Database.BatchableContext bc, List<String> requestBodies){    
@@ -107,35 +109,37 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 			System.debug('<<REQUEST BODY->>'+parameters.getBodyRequest());     
 			request.setTimeout(MAX_TIMEOUT);     
 			request.setEndpoint(parameters.getEndpoint());     
-			request.setMethod(parameters.getMethod());  
-			SObject logRecord;    
+			request.setMethod(parameters.getMethod());    
 			System.debug(parameters.getMethod());   
 			if (parameters.getUseBlobBody()) {     
 				request.setBodyAsBlob(parameters.getBlobBodyRequest());     
 			} else {     
-				if(String.isNotBlank(parameters.getBodyRequest())){  
+				if(String.isNotBlank(parameters.getBodyRequest())&&parameters.getMethod()=='POST'){  
 					request.setBody(parameters.getBodyRequest());  
 				}     
 			}      
 			System.debug('Request-'+request.toString()); 
-			String message = parameters.getName();
-			try{   
-				HttpResponse res = http.send(request);   
-				parameters.setResponseBody(res.getBody());   
-				parameters.setStatusCode(res.getStatusCode());  
-				parameters = payloadHandler.afterAPIRequest(parameters);  
-				parameters.setResponseBody(res.getBody()); 
-				System.debug('STATUS CODE = ' + res.getStatusCode());   
-			}catch(Exception e){   
-				message = '{"Exception":"'+e.getCause()+'","Error Message":"'+e.getMessage()+'"}';
-				parameters.setResponseBody(message);   
-				parameters.setStatusCode(500);   
-			}     
-			parameters.insertRecord(IntegrationLogClass.getHttpRequest(parameters),IntegrationLogClass.getHttpResponse(parameters), message, true); 
-			update parameters.setAPIrequestHandlerId(parameters.getAPIrequestHandlerId());
-			responseList.add(parameters);   
-			System.debug('RESPONSE LIST = '+String.valueOf(responseList));     
-		}  
+			String message = parameters.getName(); 
+			try{    
+				HttpResponse res = http.send(request);    
+				parameters.setResponseBody(res.getBody());    
+				parameters.setStatusCode(res.getStatusCode());   
+				parameters = payloadHandler.afterAPIRequest(parameters);   
+				parameters.setResponseBody(res.getBody());  
+				System.debug('STATUS CODE = ' + res.getStatusCode());    
+			}catch(Exception e){    
+				message = '{"Exception":"'+e.getCause()+'","Error Message":"'+e.getMessage()+'"}'; 
+				parameters.setResponseBody(message);    
+				parameters.setStatusCode(500);    
+			}      
+			parameters.insertRecord(IntegrationLogClass.getHttpRequest(parameters),IntegrationLogClass.getHttpResponse(parameters), message, true);  
+			SObject record = parameters.setAPIrequestHandlerId(parameters.getAPIrequestHandlerId()); 
+			if(String.isNotBlank(String.valueOf(record.get('Id')))){
+				update record;
+			}
+			responseList.add(parameters);    
+			System.debug('RESPONSE LIST = '+String.valueOf(responseList));      
+		}   
 	}    
 	/** 
 	* Name: finish 
@@ -143,7 +147,7 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 	*  
 	* Who            When           Ref            What                      
 	* ---------------------------------------------------------------------- 
-	* Mark Collier   10/12/2024     API            Method has been created.  
+	* Mark Collier   11/12/2024     DD-37530     Method has been created.  
 	* ---------------------------------------------------------------------- 
 	**/ 
 	global void finish(Database.BatchableContext bc){    
@@ -157,6 +161,8 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 			System.debug('PAYLOAD = '+payload);   
 			apiRequests.add(payload);  
 		}   
-		payloadDetails = payloadHandler.finalAPIRequests(apiRequests).get(0); 
+		for(UtilHttpClass apiRequest:payloadHandler.finalAPIRequests(apiRequests)){
+			payloadDetails = apiRequest; 
+		}
 	}      
 }

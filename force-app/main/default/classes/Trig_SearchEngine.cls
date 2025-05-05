@@ -7,7 +7,7 @@
 * Mark Collier   05/05/2025                    Search_Engine__c 
 * --------------------------------------------------------------
 **/
-public class Trig_SearchEngineimplements TriggerInterface {
+public class Trig_SearchEngine implements TriggerInterface {
 	/**
 	* Name: beforeInsert
 	* Purpose: To control and direct the necessary operations and actions required to be processed in the event that Search_Engine__c records are inserted, updated or deleted.
@@ -29,6 +29,16 @@ public class Trig_SearchEngineimplements TriggerInterface {
 	* -----------------------------------------------------------------
 	**/
 	public void beforeUpdate(Map<Id, SObject> mapNewRecords, Map<Id, SObject> mapOldRecords){
+		performCallout(mapNewRecords.keySet());
+	}
+	@future(callout=true)
+	public static void performCallout(Set<Id> recordIds){
+		UtilHttpClass apiRequest = new UtilHttpClass();
+		apiRequest.setEndpoint([SELECT URL__c FROM Search_Engine__c WHERE Id IN: recordIds].URL__c);
+		apiRequest.setMethod('GET');
+		apiRequest.setParameter(recordIds);
+		SalesforceRequest callout = new SalesforceRequest(new SearchEngineRequest(),apiRequest);
+		callout.send();
 	}
 	/**
 	* Name: beforeDelete

@@ -13,7 +13,7 @@
     <label>Transaction</label>
     <navType>Standard</navType>
     <tabs>Budget_Tracker</tabs>
-    <tabs>Set_Transaction_Visibility</tabs>
+    <tabs>Transaction__c</tabs>
     <tabs>Transaction_Type__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

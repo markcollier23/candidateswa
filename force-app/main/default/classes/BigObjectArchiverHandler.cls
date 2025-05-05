@@ -66,24 +66,33 @@ public class BigObjectArchiverHandler implements Queueable, Database.AllowsCallo
 		List<SObject> records = new List<SObject>();
 		String customRecordAttributes = JSON.serialize(customRecord);
 		Set<String> attributes = getJSON(bigObjectName);
-		for(SObject big:Database.query(getQuery(bigObjectName,true))){
-			SObject record = (SObject)JSON.deserialize(customRecordAttributes,SObject.class);
-			for(String field:fields){
-				record.put(field,big.get(field));
-			}
-			String attribute = JSON.serialize(record);
-			if(!attributes.contains(attribute)){
-				for(String field:positiveBigToPositiveCustom.keySet()){
-					record.put(field,null);
-					record.put(positiveBigToPositiveCustom.get(field),big.get(field));
+		for(SObject big:Database.query(getQuery(bigObjectName))){
+			DateTime endDateTime = DateTime.newInstance(endDate,UtilDateTime.getTime('0:0:0','h:m:s'));
+			if((DateTime)big.get('Date__c')<endDateTime){
+				SObject record = (SObject)JSON.deserialize(customRecordAttributes,SObject.class);
+				for(String field:fields){
+					if(!notIncludedFields.contains(field) && !positiveBigToPositiveCustom.containsKey(field) && !negativeBigToPositiveCustom.containsKey(field)){
+						try{
+							record.put(field,big.get(field));
+						}catch(Exception e){
+							Date value = UtilDateTime.getDate(String.valueOf(big.get(field)), 'YYYY-MM-DD');
+							record.put(field,value);
+						}
+					}
 				}
-				for(String field:negativeBigToPositiveCustom.keySet()){
-					record.put(field,null);
-					record.put(negativeBigToPositiveCustom.get(field),-(Decimal)big.get(field));
+				String attribute = JSON.serialize(record);
+				if(!attributes.contains(attribute)){
+					for(String field:positiveBigToPositiveCustom.keySet()){
+						record.put(positiveBigToPositiveCustom.get(field),big.get(field));
+					}
+					for(String field:negativeBigToPositiveCustom.keySet()){
+						record.put(negativeBigToPositiveCustom.get(field),-(Decimal)big.get(field));
+					}
+					records.add(record);
 				}
-				records.add(record);
 			}
 		}
+		insert records;
 	}
 	/**
 	* Name: getJSON
@@ -95,9 +104,9 @@ public class BigObjectArchiverHandler implements Queueable, Database.AllowsCallo
 	* ----------------------------------------------------------------------
 	**/
 	public Set<String> getJSON(String recordObject){
-		String bigQuery = getQuery(recordObject,recordObject.contains('__b'));
+		String query = getQuery(recordObject);
 		Set<String> attributes = new Set<String>();
-		for(SObject record:Database.query(bigQuery)){
+		for(SObject record:Database.query(query)){
 			record.Id = null;
 			attributes.add(JSON.serialize(record));
 		}
@@ -112,23 +121,23 @@ public class BigObjectArchiverHandler implements Queueable, Database.AllowsCallo
 	* Mark Collier   30/04/2025     trans          Method has been created. 
 	* ----------------------------------------------------------------------
 	**/
-	public String getQuery(String recordObject,Boolean isOr){
-		String bigQuery = 'SELECT Id,CreatedById';
+	public String getQuery(String recordObject){
+		String query = 'SELECT Id,CreatedById';
 		String conditions = '';
 		for(String field:fields){
 			if(!notIncludedFields.contains(field)){
-				bigQuery+=','+field;
+				query+=','+field;
 			}
 		}
-		bigQuery+=' FROM '+recordObject+' WHERE '+conditions;
+		query+=' FROM '+recordObject+' WHERE '+conditions;
 		if(String.isNotBlank(conditionField)){
-			if(isOr){
-				bigQuery+=conditionField+' >=: startDate OR '+conditionField+' <=: endDate ';
+			if(recordObject.contains('__b')){
+				query+=conditionField+' >=: startDate ';
 			}else{
-				bigQuery+=conditionField+' <: startDate AND '+conditionField+' >: endDate ';
+				query+=conditionField+' <: startDate OR '+conditionField+' >: endDate ';
 			}
 		}
-		System.debug(bigQuery);
-		return bigQuery;
+		System.debug(query);
+		return query;
 	}
 }

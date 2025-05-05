@@ -128,7 +128,10 @@ global class BigObjectArchiver implements Database.Batchable<SObject>, Database.
 	**/
 	global void finish(Database.BatchableContext bc){
 		System.debug('finish');
-		delete Database.query(archiver.getQuery(archiver.objectName,false));
+		Date startDate = archiver.startDate;
+		Date endDate = archiver.endDate;
+		List<SObject> records = Database.query(archiver.getQuery(archiver.objectName));
+		delete records;
 		System.enqueueJob(archiver);
 	}
 	

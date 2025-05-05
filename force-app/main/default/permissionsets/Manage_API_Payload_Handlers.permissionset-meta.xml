@@ -118,10 +118,6 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>LogEntry__c</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
-    <tabSettings>
         <tab>Parameter__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>

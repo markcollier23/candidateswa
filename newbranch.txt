@@ -1,258 +1,258 @@
-deleted:    force-app/main/default/apexEmailNotifications/apexEmailNotifications.notifications-meta.xml
-git checkout master -- force-app/main/default/applications/Oireachtas.app-meta.xml
-git checkout master -- force-app/main/default/applications/SolarBots.app-meta.xml
-git checkout master -- force-app/main/default/applications/Ursus_Park.app-meta.xml
-git checkout master -- force-app/main/default/classes/VoteHandler.cls
-git checkout master -- force-app/main/default/classes/VoteHandler.cls-meta.xml
-git checkout master -- force-app/main/default/classes/VoteUpdate.cls
-git checkout master -- force-app/main/default/classes/VoteUpdate.cls-meta.xml
-git checkout master -- force-app/main/default/flexipages/Bear_Record_Page.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/Bill_Record_Page.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/Bill_Record_Page1.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/Oireachtas_UtilityBar.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/SolarBot_App_Page.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/SolarBot_Record_Page.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/SolarBots_UtilityBar.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/TD_Record_Page.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/Ursus_Park_UtilityBar.flexipage-meta.xml
-git checkout master -- force-app/main/default/flexipages/Vote_Record_Page.flexipage-meta.xml
-git checkout master -- force-app/main/default/layouts/AccountContactRelation-Account Contact Relationship Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Asset-Asset Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/AssetAction-Asset Action Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/AssetActionSource-Asset Action Source Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/AssetRelationship-Asset Relationship Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/AssetStatePeriod-Asset State Period Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/AuthorizationForm-Authorization Form Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/AuthorizationFormConsent-Authorization Form Consent Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/AuthorizationFormDataUse-Authorization Form Data Use Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/AuthorizationFormText-Authorization Form Text Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Bear__c-Bear Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Bill__c-Bill Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/BusinessBrand-Business Brand Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Campaign-Campaign Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/CampaignMember-Campaign Member Page Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/CardPaymentMethod-Card Payment Method Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/CaseClose-Close Case Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/CommunityMemberLayout-Community Member Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ConsumptionRate-Consumption Rate Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ConsumptionSchedule-Consumption Schedule Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Contact-Contact %28Marketing%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Contact-Contact %28Sales%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Contact-Contact %28Support%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ContactPointAddress-Contact Point Address Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ContactPointEmail-Contact Point Email Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ContactPointPhone-Contact Point Phone Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ContactPointTypeConsent-Contact Point Type Consent Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ContentVersion-Content Version Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Contract-Contract Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/CredentialStuffingEventStore-Credential Stuffing Event Store Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/CreditMemo-Credit Memo Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/CreditMemoLine-Credit Memo Line Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Customer-Customer Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/DandBCompany-D%26B Company Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/DataUseLegalBasis-Data Use Legal Basis Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/DataUsePurpose-Data Use Purpose Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/DigitalWallet-Digital Wallet Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/DuplicateRecordSet-Duplicate Record Set Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/EmailMessage-Email Message Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Event-Event Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Exam__c-Exam Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/FeedItem-Feed Item Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/FinanceBalanceSnapshot-Finance Balance Snapshot Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/FinanceTransaction-Finance Transaction Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Global-Global Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Header__c-Header Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Header__c-Header_Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/HourPlan__c-HourPlan Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Idea-Idea Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Individual-Individual Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Invoice-Invoice Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/InvoiceLine-Invoice Line Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Lead-Lead %28Marketing%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Lead-Lead %28Sales%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Lead-Lead %28Support%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Lead-Lead Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/LegalEntity-Legal Entity Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Macro-Macro Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Opportunity-Opportunity %28Sales%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Opportunity-Opportunity %28Support%29 Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Opportunity-Opportunity Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/OpportunityLineItem-Opportunity Product Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Order-Order Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/OrderItem-Order Product Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Parameter__c-Parameter Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Parameter__c-Parameter_Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Payload__c-Payload Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Payload__c-Payload_Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Payment-Payment Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/PaymentAuthorization-Payment Authorization Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/PaymentGateway-Payment Gateway Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/PaymentGatewayLog-Payment Gateway Log Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/PaymentGroup-Payment Group Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/PaymentLineInvoice-Payment Line Invoice Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Pricebook2-Price Book Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/PricebookEntry-Price Book Entry Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ProcessException-Process Exception Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Product2-Product Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ProductConsumptionSchedule-Product Consumption Schedule Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Question__c-Question Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/QuickText-Quick Text Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Refund-Refund Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/RefundLinePayment-Refund Line Payment Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ReportAnomalyEventStore-Report Anomaly Event Store Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Scorecard-Scorecard Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ScorecardAssociation-Scorecard Association Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ScorecardMetric-Scorecard Metric Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Seller-Seller Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/SessionHijackingEventStore-Session Hijacking Event Store Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/SocialPersona-Social Persona Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Solution-Solution Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/TD__c-TD Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Task-Task Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/ThreatDetectionFeedback-Threat Detection Feedback Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/User-User Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/UserProvAccount-User Provisioning Account Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/UserProvisioningLog-User Provisioning Log Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/UserProvisioningRequest-User Provisioning Request Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/Vote__c-Vote Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/WorkAccess-Access Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/WorkBadge-Badge Received Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/WorkBadgeDefinition-Badge Layout.layout-meta.xml
-git checkout master -- force-app/main/default/layouts/WorkThanks-Thanks Layout.layout-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/Bear__c.object-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/fields/Age__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/fields/Birthdate__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/fields/Height__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/fields/Location__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/fields/Observations__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/fields/Sex__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/fields/Supervisor__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/fields/Weight__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bear__c/listViews/All.listView-meta.xml
-git checkout master -- force-app/main/default/objects/Bill__c/Bill__c.object-meta.xml
-git checkout master -- force-app/main/default/objects/Bill__c/fields/URL__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Bill__c/listViews/All.listView-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/HourPlan__c.object-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/compactLayouts/Custom_Compact_Layout.compactLayout-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/Activity_Code__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/Activity_Desc__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/Description__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/Hours_Label__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/OT_1__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/OT__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/System_Src__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/WBS_Element__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/Wk_End_Date__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/Work_Item_Title__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/fields/Work_Item__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/HourPlan__c/listViews/All.listView-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot_Status__c/SolarBot_Status__c.object-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot_Status__c/fields/Kilowatt_Hours__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot_Status__c/fields/Maintenance_Requested__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot_Status__c/fields/Panel_Temperature__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot_Status__c/fields/Percent_Obscured__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot_Status__c/fields/SolarBot__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot_Status__c/fields/Status_Date__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot_Status__c/listViews/All.listView-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/SolarBot__c.object-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/Account__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/All_Time_Obscured_Percent_Average__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/All_Time_Temperature_Average__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/All_Time_kWh_Average__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/Number_of_Status_Records__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/Obscured_Roll_Up__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/SolarBot_Model__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/Temp_Rollup__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/Under_Warranty__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/Warranty_Expiration__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/fields/kWh_Roll_Up__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/SolarBot__c/listViews/All.listView-meta.xml
-git checkout master -- force-app/main/default/objects/TD__c/TD__c.object-meta.xml
-git checkout master -- force-app/main/default/objects/TD__c/compactLayouts/Custom_Compact_Layout.compactLayout-meta.xml
-git checkout master -- force-app/main/default/objects/TD__c/fields/Party__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/TD__c/fields/URL__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/TD__c/listViews/All.listView-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/Vote__c.object-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/compactLayouts/Custom_Compact_Layout.compactLayout-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/Bill__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/No__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/Parent__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/Party__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/TD__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/Teachta_Dala__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/Vote_Details__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/Vote_Summary__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/fields/Yes__c.field-meta.xml
-git checkout master -- force-app/main/default/objects/Vote__c/listViews/All.listView-meta.xml
-git checkout master -- force-app/main/default/quickActions/Bill__c.Bill.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Case.LogACall.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Case.NewChildCase.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/CollaborationGroup.NewGroupMember.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/CollaborationGroup.NewGroupRecord.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/FeedItem.NewTaskFromFeedItem.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/LogACall.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewAccount.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewCase.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewContact.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewEvent.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewGroup.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewLead.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewNote.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewOpportunity.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/NewTask.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/TD__c.Teachta_Dala.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.Defer.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.Defer_0.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.Defer_1.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.Defer_2.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.EditDescription.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.EditDescription_0.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.EditDescription_1.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.EditDescription_2.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.UpdatePriority.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.UpdatePriority_0.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.UpdatePriority_1.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.UpdatePriority_2.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.UpdateStatus.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.UpdateStatus_0.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.UpdateStatus_1.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Task.UpdateStatus_2.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Vote__c.Bill.quickAction-meta.xml
-git checkout master -- force-app/main/default/quickActions/Vote__c.New_Vote.quickAction-meta.xml
-git checkout master -- force-app/main/default/tabs/Bear__c.tab-meta.xml
-git checkout master -- force-app/main/default/tabs/Bill__c.tab-meta.xml
-git checkout master -- force-app/main/default/tabs/SolarBot_App_Page.tab-meta.xml
-git checkout master -- force-app/main/default/tabs/SolarBot_Status__c.tab-meta.xml
-git checkout master -- force-app/main/default/tabs/SolarBot__c.tab-meta.xml
-git checkout master -- force-app/main/default/tabs/TD__c.tab-meta.xml
-git checkout master -- force-app/main/default/tabs/Vote__c.tab-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/API_Payload_Handler__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Account.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Asset.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Bear__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Bill__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Campaign.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Case.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Contact.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/ContentDocument.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Contract.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Event.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Exam__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Header__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/HourPlan__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Lead.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Opportunity.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Order.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Parameter__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Payload__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Question__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/SolarBot_Status__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/SolarBot__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Solution.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/TD__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Task.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/topicsForObjects/Vote__c.topicsForObjects-meta.xml
-git checkout master -- force-app/main/default/triggers/Vote.trigger
-git checkout master -- force-app/main/default/triggers/Vote.trigger-meta.xml
+deleted:    "force-app/main/default/apexEmailNotifications/apexEmailNotifications.notifications-meta.xml"
+git checkout master -- "force-app/main/default/applications/Oireachtas.app-meta.xml"
+git checkout master -- "force-app/main/default/applications/SolarBots.app-meta.xml"
+git checkout master -- "force-app/main/default/applications/Ursus_Park.app-meta.xml"
+git checkout master -- "force-app/main/default/classes/VoteHandler.cls"
+git checkout master -- "force-app/main/default/classes/VoteHandler.cls-meta.xml"
+git checkout master -- "force-app/main/default/classes/VoteUpdate.cls"
+git checkout master -- "force-app/main/default/classes/VoteUpdate.cls-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/Bear_Record_Page.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/Bill_Record_Page.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/Bill_Record_Page1.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/Oireachtas_UtilityBar.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/SolarBot_App_Page.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/SolarBot_Record_Page.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/SolarBots_UtilityBar.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/TD_Record_Page.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/Ursus_Park_UtilityBar.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/flexipages/Vote_Record_Page.flexipage-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AccountContactRelation-Account Contact Relationship Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Asset-Asset Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AssetAction-Asset Action Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AssetActionSource-Asset Action Source Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AssetRelationship-Asset Relationship Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AssetStatePeriod-Asset State Period Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AuthorizationForm-Authorization Form Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AuthorizationFormConsent-Authorization Form Consent Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AuthorizationFormDataUse-Authorization Form Data Use Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/AuthorizationFormText-Authorization Form Text Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Bear__c-Bear Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Bill__c-Bill Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/BusinessBrand-Business Brand Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Campaign-Campaign Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/CampaignMember-Campaign Member Page Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/CardPaymentMethod-Card Payment Method Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/CaseClose-Close Case Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/CommunityMemberLayout-Community Member Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ConsumptionRate-Consumption Rate Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ConsumptionSchedule-Consumption Schedule Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Contact-Contact %28Marketing%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Contact-Contact %28Sales%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Contact-Contact %28Support%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ContactPointAddress-Contact Point Address Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ContactPointEmail-Contact Point Email Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ContactPointPhone-Contact Point Phone Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ContactPointTypeConsent-Contact Point Type Consent Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ContentVersion-Content Version Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Contract-Contract Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/CredentialStuffingEventStore-Credential Stuffing Event Store Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/CreditMemo-Credit Memo Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/CreditMemoLine-Credit Memo Line Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Customer-Customer Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/DandBCompany-D%26B Company Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/DataUseLegalBasis-Data Use Legal Basis Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/DataUsePurpose-Data Use Purpose Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/DigitalWallet-Digital Wallet Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/DuplicateRecordSet-Duplicate Record Set Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/EmailMessage-Email Message Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Event-Event Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Exam__c-Exam Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/FeedItem-Feed Item Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/FinanceBalanceSnapshot-Finance Balance Snapshot Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/FinanceTransaction-Finance Transaction Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Global-Global Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Header__c-Header Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Header__c-Header_Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/HourPlan__c-HourPlan Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Idea-Idea Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Individual-Individual Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Invoice-Invoice Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/InvoiceLine-Invoice Line Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Lead-Lead %28Marketing%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Lead-Lead %28Sales%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Lead-Lead %28Support%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Lead-Lead Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/LegalEntity-Legal Entity Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Macro-Macro Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Opportunity-Opportunity %28Sales%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Opportunity-Opportunity %28Support%29 Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Opportunity-Opportunity Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/OpportunityLineItem-Opportunity Product Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Order-Order Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/OrderItem-Order Product Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Parameter__c-Parameter Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Parameter__c-Parameter_Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Payload__c-Payload Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Payload__c-Payload_Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Payment-Payment Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/PaymentAuthorization-Payment Authorization Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/PaymentGateway-Payment Gateway Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/PaymentGatewayLog-Payment Gateway Log Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/PaymentGroup-Payment Group Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/PaymentLineInvoice-Payment Line Invoice Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Pricebook2-Price Book Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/PricebookEntry-Price Book Entry Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ProcessException-Process Exception Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Product2-Product Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ProductConsumptionSchedule-Product Consumption Schedule Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Question__c-Question Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/QuickText-Quick Text Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Refund-Refund Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/RefundLinePayment-Refund Line Payment Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ReportAnomalyEventStore-Report Anomaly Event Store Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Scorecard-Scorecard Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ScorecardAssociation-Scorecard Association Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ScorecardMetric-Scorecard Metric Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Seller-Seller Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/SessionHijackingEventStore-Session Hijacking Event Store Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/SocialPersona-Social Persona Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Solution-Solution Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/TD__c-TD Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Task-Task Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/ThreatDetectionFeedback-Threat Detection Feedback Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/User-User Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/UserProvAccount-User Provisioning Account Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/UserProvisioningLog-User Provisioning Log Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/UserProvisioningRequest-User Provisioning Request Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/Vote__c-Vote Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/WorkAccess-Access Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/WorkBadge-Badge Received Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/WorkBadgeDefinition-Badge Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/layouts/WorkThanks-Thanks Layout.layout-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/Bear__c.object-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/fields/Age__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/fields/Birthdate__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/fields/Height__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/fields/Location__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/fields/Observations__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/fields/Sex__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/fields/Supervisor__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/fields/Weight__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bear__c/listViews/All.listView-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bill__c/Bill__c.object-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bill__c/fields/URL__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Bill__c/listViews/All.listView-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/HourPlan__c.object-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/compactLayouts/Custom_Compact_Layout.compactLayout-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/Activity_Code__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/Activity_Desc__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/Description__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/Hours_Label__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/OT_1__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/OT__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/System_Src__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/WBS_Element__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/Wk_End_Date__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/Work_Item_Title__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/fields/Work_Item__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/HourPlan__c/listViews/All.listView-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot_Status__c/SolarBot_Status__c.object-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot_Status__c/fields/Kilowatt_Hours__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot_Status__c/fields/Maintenance_Requested__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot_Status__c/fields/Panel_Temperature__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot_Status__c/fields/Percent_Obscured__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot_Status__c/fields/SolarBot__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot_Status__c/fields/Status_Date__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot_Status__c/listViews/All.listView-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/SolarBot__c.object-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/Account__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/All_Time_Obscured_Percent_Average__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/All_Time_Temperature_Average__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/All_Time_kWh_Average__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/Number_of_Status_Records__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/Obscured_Roll_Up__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/SolarBot_Model__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/Temp_Rollup__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/Under_Warranty__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/Warranty_Expiration__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/fields/kWh_Roll_Up__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/SolarBot__c/listViews/All.listView-meta.xml"
+git checkout master -- "force-app/main/default/objects/TD__c/TD__c.object-meta.xml"
+git checkout master -- "force-app/main/default/objects/TD__c/compactLayouts/Custom_Compact_Layout.compactLayout-meta.xml"
+git checkout master -- "force-app/main/default/objects/TD__c/fields/Party__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/TD__c/fields/URL__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/TD__c/listViews/All.listView-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/Vote__c.object-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/compactLayouts/Custom_Compact_Layout.compactLayout-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/Bill__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/No__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/Parent__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/Party__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/TD__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/Teachta_Dala__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/Vote_Details__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/Vote_Summary__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/fields/Yes__c.field-meta.xml"
+git checkout master -- "force-app/main/default/objects/Vote__c/listViews/All.listView-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Bill__c.Bill.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Case.LogACall.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Case.NewChildCase.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/CollaborationGroup.NewGroupMember.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/CollaborationGroup.NewGroupRecord.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/FeedItem.NewTaskFromFeedItem.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/LogACall.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewAccount.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewCase.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewContact.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewEvent.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewGroup.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewLead.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewNote.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewOpportunity.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/NewTask.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/TD__c.Teachta_Dala.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.Defer.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.Defer_0.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.Defer_1.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.Defer_2.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.EditDescription.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.EditDescription_0.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.EditDescription_1.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.EditDescription_2.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.UpdatePriority.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.UpdatePriority_0.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.UpdatePriority_1.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.UpdatePriority_2.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.UpdateStatus.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.UpdateStatus_0.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.UpdateStatus_1.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Task.UpdateStatus_2.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Vote__c.Bill.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/quickActions/Vote__c.New_Vote.quickAction-meta.xml"
+git checkout master -- "force-app/main/default/tabs/Bear__c.tab-meta.xml"
+git checkout master -- "force-app/main/default/tabs/Bill__c.tab-meta.xml"
+git checkout master -- "force-app/main/default/tabs/SolarBot_App_Page.tab-meta.xml"
+git checkout master -- "force-app/main/default/tabs/SolarBot_Status__c.tab-meta.xml"
+git checkout master -- "force-app/main/default/tabs/SolarBot__c.tab-meta.xml"
+git checkout master -- "force-app/main/default/tabs/TD__c.tab-meta.xml"
+git checkout master -- "force-app/main/default/tabs/Vote__c.tab-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/API_Payload_Handler__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Account.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Asset.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Bear__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Bill__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Campaign.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Case.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Contact.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/ContentDocument.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Contract.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Event.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Exam__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Header__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/HourPlan__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Lead.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Opportunity.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Order.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Parameter__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Payload__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Question__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/SolarBot_Status__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/SolarBot__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Solution.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/TD__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Task.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/topicsForObjects/Vote__c.topicsForObjects-meta.xml"
+git checkout master -- "force-app/main/default/triggers/Vote.trigger"
+git checkout master -- "force-app/main/default/triggers/Vote.trigger-meta.xml"

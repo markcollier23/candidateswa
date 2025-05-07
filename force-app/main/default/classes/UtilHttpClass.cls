@@ -42,7 +42,7 @@ public class UtilHttpClass{
 		setStatusCode(res.getStatusCode()); 
 		setResponseBody(res.getBody()); 
 		setName(message); 
-		if(saveLog && record.Id==null){ 
+		if(saveLog && record.Id==null && String.valueOf(record.getSObjectType())!='LogEntry__c'){ 
 			insert record; 
 		} 
 		return record; 
@@ -57,10 +57,12 @@ public class UtilHttpClass{
 	* ---------------------------------------------------------------------- 
 	**/ 
 	public SObject put(String fieldNames,Integer maxlen,Object value){ 
-		String valueString = String.valueOf(value).left(maxlen); 
-		for(String fieldName:fieldNames.split(',')){ 
-			record.put(fieldName,String.valueOf(value).length()>maxlen?valueString:value); 
-		} 
+		if(String.isNotBlank(String.valueOf(value))){
+			String valueString = String.valueOf(value).left(maxlen); 
+			for(String fieldName:fieldNames.split(',')){ 
+				record.put(fieldName,String.valueOf(value).length()>maxlen?valueString:value); 
+			} 
+		}
 		return record; 
 	} 
 	/** 
@@ -280,8 +282,8 @@ public class UtilHttpClass{
 	* ---------------------------------------------------------------------- 
 	**/ 
     public SObject setMasking(Boolean mask){  
-        this.maskStrings = mask;  
-        return record;  
+        this.maskStrings = mask;
+        return record;
     }  
 	/** 
 	* Name: getMasking 

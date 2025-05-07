@@ -29,16 +29,7 @@ public class Trig_SearchEngine implements TriggerInterface {
 	* -----------------------------------------------------------------
 	**/
 	public void beforeUpdate(Map<Id, SObject> mapNewRecords, Map<Id, SObject> mapOldRecords){
-		performCallout(mapNewRecords.keySet());
-	}
-	@future(callout=true)
-	public static void performCallout(Set<Id> recordIds){
-		UtilHttpClass apiRequest = new UtilHttpClass();
-		apiRequest.setEndpoint([SELECT URL__c FROM Search_Engine__c WHERE Id IN: recordIds].URL__c);
-		apiRequest.setMethod('GET');
-		apiRequest.setParameter(recordIds);
-		SalesforceRequest callout = new SalesforceRequest(new SearchEngineRequest(),apiRequest);
-		callout.send();
+		
 	}
 	/**
 	* Name: beforeDelete
@@ -72,6 +63,20 @@ public class Trig_SearchEngine implements TriggerInterface {
 	* -----------------------------------------------------------------
 	**/
 	public void afterUpdate(Map<Id, SObject> mapNewRecords, Map<Id, SObject> mapOldRecords){
+		Map<String,Id> endpointMap = new Map<String,Id>();
+		for(Search_Engine__c record:[SELECT Id,URL__c FROM Search_Engine__c WHERE Id IN: mapNewRecords.keySet()]){
+			endpointMap.put(record.URL__c,record.Id);
+		}
+		if(endpointMap.size()==1){
+			endpointMap.put('Invoke Batch',null);
+		}
+		delete [SELECT Id FROM Location_Found__c WHERE Search_Engine__c IN: endpointMap.values()];
+		UtilHttpClass apiRequest = new UtilHttpClass();
+		apiRequest.setEndpoints(new List<String>(endpointMap.keySet()));
+		apiRequest.setMethod('GET');
+		apiRequest.setParameter(endpointMap);
+		SalesforceRequest callout = new SalesforceRequest(new SearchEngineRequest(),apiRequest);
+		callout.send();
 	}
 	/**
 	* Name: afterDelete

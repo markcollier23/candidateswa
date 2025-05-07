@@ -18,6 +18,7 @@ public class SearchEngineRequest implements RestServiceClient{
 	* -------------------------------------------------------------------- 
 	**/ 
     public UtilHttpClass beforeAPIRequest(UtilHttpClass payload){  
+		payload.setEndpoint('https://trailhead.salesforce.com/'+payload.getEndpoint());
 		return payload;
     } 
 	/** 
@@ -29,7 +30,16 @@ public class SearchEngineRequest implements RestServiceClient{
 	* Mark Collier   10/12/2024     API            API_Payload_Handler__c  
 	* -------------------------------------------------------------------- 
 	**/ 
-    public UtilHttpClass afterAPIRequest(UtilHttpClass payload){  
+    public UtilHttpClass afterAPIRequest(UtilHttpClass payload){ 
+		Map<String,Id> endpointMap = (Map<String,Id>)payload.getParameter();
+		if(endpointMap.containsKey(payload.getEndpoint())){
+			Id searchEngineId = endpointMap.get(payload.getEndpoint());
+			String searchTerm = [SELECT Id,Name FROM Search_Engine__c WHERE Id =: searchEngineId].Name;
+			String body = payload.getResponseBody();
+			if(body.contains(searchTerm)){
+				insert new Location_Found__c(Search_Engine__c=searchEngineId,URL__c=payload.getEndpoint());
+			}
+		}
         return payload;  
     }  
 	/** 
@@ -42,22 +52,29 @@ public class SearchEngineRequest implements RestServiceClient{
 	* -------------------------------------------------------------------- 
 	**/ 
     public List<UtilHttpClass> finalAPIRequests(List<UtilHttpClass> payloads){ 
-		List<Location_Found__c> locations = new List<Location_Found__c>();
-		Set<Id> searchEngines = new Set<Id>();
-        for(UtilHttpClass payload:payloads){
-			System.debug(payload);
-			for(Id searchEngine:(Set<Id>)payload.getParameter()){
-				searchEngines.add(searchEngine);
-				for(String address:payload.getResponseBody().split('href="')){
-					System.debug(address);
-					if(address.contains('</a>')){
-						locations.add(new Location_Found__c(Search_Engine__c = searchEngine,URL__c = address.substringBefore('"')));
+		Map<String,Id> endpointMap = new Map<String,Id>();
+		for(UtilHttpClass payload:payloads){
+			if(payload.getName()!='LAST ENDPOINT'){
+				Map<String,Id> parentMap = (Map<String,Id>)payload.getParameter();
+				for(String endpoint:parentMap.keySet()){
+					for(String address:payload.getResponseBody().split('href="')){
+						System.debug(address);
+						if(address.contains('</a>')){
+							endpointMap.put(address.substringBefore('"'),parentMap.get(endpoint));
+						}
 					}
 				}
 			}
 		} 
-		delete [SELECT Id FROM Location_Found__c WHERE Search_Engine__c IN: searchEngines];
-		insert locations;
+		if(endpointMap.size()>0){
+			UtilHttpClass apiRequest = new UtilHttpClass();
+			apiRequest.setEndpoints(new List<String>(endpointMap.keySet()));
+			apiRequest.setMethod('GET');
+			apiRequest.setName('LAST ENDPOINT');
+			apiRequest.setParameter(endpointMap);
+			SalesforceRequest callout = new SalesforceRequest(new SearchEngineRequest(),apiRequest);
+			callout.send();
+		}
 		return payloads;
     }  
 }

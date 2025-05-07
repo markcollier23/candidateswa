@@ -58,8 +58,10 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 			payloads.add(req);   
 		}  
 		if(payloads.size()==0||payloads==null||payloads.get(0)==null){  
-			payloads = new List<String>();  
-			payloads.add(payloadDetails.getEndpoint());  
+			payloads = new List<String>();
+			if(String.isNotBlank(payloadDetails.getEndpoint())){
+				payloads.add(payloadDetails.getEndpoint()); 
+			}  
 			for(String endpointUrl:payloadDetails.getEndpoints()){ 
 				if(endpointUrl!=payloadDetails.getEndpoint()){
 					payloads.add(endpointUrl); 

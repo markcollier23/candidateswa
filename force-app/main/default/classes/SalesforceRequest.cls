@@ -57,7 +57,7 @@ public class SalesforceRequest implements Queueable, Database.AllowsCallouts {
             endpoints.add(apiRequest.getEndpoint());
             apiRequest.setEndpoints(endpoints);
         }
-        if(payloads.size()>1){ 
+        if(payloads.size()>1 || apiRequest.getEndpoints().size()>1){ 
             Database.executeBatch(batch,1); 
         }else{ 
             List<String> requestBodies = (List<String>)batch.start(null); 

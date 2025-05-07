@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Used to extract the Victorian public holidays and place them on the calendar within the UtilBusinessHours class.</description>
+    <description></description>
     <disableProtocolSecurity>false</disableProtocolSecurity>
     <isActive>true</isActive>
-    <url>https://business.vic.gov.au</url>
+    <url>http://election-dev-ed.my.salesforce-sites.com/candidates/resource/html</url>
 </RemoteSiteSetting>

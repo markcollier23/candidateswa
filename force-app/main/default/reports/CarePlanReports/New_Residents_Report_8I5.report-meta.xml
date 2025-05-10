@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
+        <field>Resident__c.First_Name__c</field>
+    </columns>
+    <columns>
         <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Resident__c.Past_Classification__c</field>
     </columns>
     <format>Matrix</format>
     <groupingsAcross>
@@ -14,15 +20,15 @@
         <field>Resident__c.Classification__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Classification Report</name>
+    <name>Board Report</name>
     <params>
         <name>co</name>
         <value>1</value>
     </params>
     <reportType>CustomEntity$Resident__c</reportType>
-    <scope>user</scope>
+    <scope>organization</scope>
     <showDetails>false</showDetails>
-    <showGrandTotal>true</showGrandTotal>
+    <showGrandTotal>false</showGrandTotal>
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>Resident__c.Admission_Date__c</dateColumn>

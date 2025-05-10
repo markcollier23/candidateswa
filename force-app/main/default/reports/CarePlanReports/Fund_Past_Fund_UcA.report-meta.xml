@@ -21,6 +21,9 @@
         </values>
     </buckets>
     <columns>
+        <field>Resident__c.First_Name__c</field>
+    </columns>
+    <columns>
         <field>CUST_NAME</field>
     </columns>
     <columns>

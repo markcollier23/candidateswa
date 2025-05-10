@@ -177,11 +177,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Resident__c.First_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Resident__c.Last_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>

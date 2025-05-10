@@ -13,7 +13,7 @@ public class DynamicLabel{
 		'ActivateCarePlan__c' => true,
 		'ActivateResident__c' => true,
 		'TurnOnNebulaSuccessLogs__c' => true, 
-		'TurnOnNebulaErrorLogs__c' => true,   
+		'TurnOnNebulaErrorLogs__c' => true,     
 		'ActivateAPIPayload__c' => true,       
 		'Salesforce_Default_URL__c' => ''       
 	};       

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>markcollier723@cunning-narwhal-2bdnqu.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>Care Plans</name>
+</DashboardFolder>

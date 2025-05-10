@@ -282,8 +282,8 @@ public class UtilHttpClass{
 	* ---------------------------------------------------------------------- 
 	**/ 
     public SObject setMasking(Boolean mask){  
-        this.maskStrings = mask;  
-        return record;  
+        this.maskStrings = mask;
+        return record;
     }  
 	/** 
 	* Name: getMasking 

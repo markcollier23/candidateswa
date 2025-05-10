@@ -51,7 +51,7 @@ global class RestServiceClientBatch implements Database.Batchable<String>, Datab
 	**/ 
 	global Iterable<String> start(Database.BatchableContext bc) {   
 		System.debug('start method');   
-		payloadDetails = payloadHandler.beforeAPIRequest(payloadDetails); 
+		payloadDetails = payloadHandler.beforeAPIRequest(payloadDetails);
 		String req = payloadDetails.getBodyRequest();
 		if(String.isNotBlank(req)){   
 			payloads = new List<String>();   

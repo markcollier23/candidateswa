@@ -79,6 +79,6 @@ public class SalesforceRequest implements Queueable, Database.AllowsCallouts {
         List<String> payloads = new List<String>();     
         payloads.add(apiRequest.getBodyRequest());     
         payloads.addAll(apiRequest.getRequestBodies()); 
-        return send(payloads);     
+        return send(payloads);
     }     
 }

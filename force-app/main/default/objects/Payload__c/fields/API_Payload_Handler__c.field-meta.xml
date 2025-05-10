@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>API_Payload_Handler__c</fullName>
-    <description>This is where the request information for the payload is stored.</description>
     <label>API Payload Handler</label>
-    <referenceTo>API_Payload_Handler__c</referenceTo>
-    <relationshipName>Payload</relationshipName>
-    <relationshipOrder>0</relationshipOrder>
-    <reparentableMasterDetail>false</reparentableMasterDetail>
-    <trackHistory>false</trackHistory>
-    <trackTrending>false</trackTrending>
-    <type>MasterDetail</type>
-    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <required>false</required>
+	<externalId>false</externalId>
+	<description>This is where the request information for the payload is stored.</description>
+	<type>MasterDetail</type>
+	<referenceTo>API_Payload_Handler__c</referenceTo>
+	<relationshipName>Payload</relationshipName>
 </CustomField>

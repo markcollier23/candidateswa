@@ -76,13 +76,10 @@
                     <name>relatedListFieldAliases</name>
                     <valueList>
                         <valueListItems>
-                            <value>Last_Name__c</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>NAME</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>First_Name__c</value>
+                            <value>Last_Name__c</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Admission_Date__c</value>
@@ -145,13 +142,10 @@
                     <name>relatedListFieldAliases</name>
                     <valueList>
                         <valueListItems>
-                            <value>Last_Name__c</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>NAME</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>First_Name__c</value>
+                            <value>Last_Name__c</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Admission_Date__c</value>

@@ -57,10 +57,12 @@ public class Trig_CarePlan implements TriggerInterface {
 	@future(callout=true)
 	public static void populateCarePlan(Set<Id> careIds){
 		Map<String,String> replaceMap  = new Map<String,String>{
-			'Resident' => 'First_Name__c',
+			'Resident' => 'Name',
 			'He' => 'Pronoun__c',
 			'Him' => 'Proform__c',
-			'His' => 'Proximal__c'
+			'His' => 'Proximal__c',
+			'Assist' => 'Supervision_Type__c',
+			'Supervise' => 'Supervision_Type__c'
 		};
 		List<Care_Plan__c> newRecords = new List<Care_Plan__c>();
 		Set<String> fields = new Set<String>{'Personal_Goals__c','Personal_Goals_OHAT__c','Personal_Strategies__c','Personal_Strategies_OHAT__c','Continence_Personal_Strategies__c','Nutritional_Risk_Strategies__c','Toileting_Personal_Strategies__c','Foot_Care_1__c','Foot_Care_2__c'};
@@ -95,7 +97,7 @@ public class Trig_CarePlan implements TriggerInterface {
 								String residentValue = String.valueOf(resident.get(residentField));
 								if(String.isNotBlank(residentValue)){
 									String lowerCaseResidentValue = residentValue.toLowerCase();
-									if(residentField=='First_Name__c'){
+									if(residentField=='Name'){
 										lowerCaseResidentValue = residentValue.toLowerCase().capitalize();
 										residentValue = lowerCaseResidentValue;
 										value = value.replace(' '+substitute,' '+residentValue);
@@ -109,6 +111,17 @@ public class Trig_CarePlan implements TriggerInterface {
 									value = value.replace(' '+substitute+' ',' '+lowerCaseResidentValue+' ');
 									value = value.replace(' '+substitute+'\'',' '+lowerCaseResidentValue+'\'');
 									value = value.replace(' '+substitute+'.',' '+lowerCaseResidentValue+'.');
+									if(residentField == 'Supervision_Type__c'){
+										if(lowerCaseResidentValue=='fully assist physically'){
+											value = value.replace('assistance','full physical assistance');
+										}
+										if(lowerCaseResidentValue=='supervise'){
+											value = value.replace('assistance','supervision');
+										}
+										value = value.replace('full physical full physical','full physical');
+										value = value.replace('fully fully','fully');
+										value = value.replace('physically physically','physically');
+									}
 								}
 							}
 						}

@@ -66,6 +66,11 @@
         <field>Payload__c.Request_Body__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LogEntry__c.API_Payload_Handler__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Manage API Payload Handlers</label>
     <objectPermissions>

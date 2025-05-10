@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>API_Payload_Handler__c</fullName>
-    <label>API_Payload_Handler</label>
+    <label>API Payload Handler</label>
     <required>false</required>
 	<externalId>false</externalId>
-	<description>Foreign Key under a Master Detail relationship to ensure that an API Request has it's own set of Headers.</description>
-	<type>MasterDetail</type>
+	<description>To allow a related list of API Integration Logs to be seen on the API Payload Handler.</description>
+	<type>Lookup</type>
 	<referenceTo>API_Payload_Handler__c</referenceTo>
-	<relationshipName>Header</relationshipName>
+	<relationshipName>API</relationshipName>
 </CustomField>

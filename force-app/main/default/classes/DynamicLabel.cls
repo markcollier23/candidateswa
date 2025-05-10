@@ -11,10 +11,12 @@ public class DynamicLabel{
 	public static List<String> orgNameExtensions = new String[]{'_PROD__c','_UAT__c','_SIT__c'};       
 	private static Map<String,Object> defaultValues = new Map<String,Object>{       
 		'ActivateCarePlan__c' => true,
-		'ActivateResident__c' => true,
-		'TurnOnNebulaSuccessLogs__c' => true, 
-		'TurnOnNebulaErrorLogs__c' => true,     
-		'ActivateAPIPayload__c' => true,       
+		'ActivateResident__c' => true,   
+		'DefaultIntegrationLog__c' => new NebulaLog(),
+		'TurnOnNebulaSuccessLogs__c' => true,
+		'TurnOnNebulaErrorLogs__c' => true,
+		'ActivateAPIPayload__c' => true,
+		'ActivateSearchEngine__c' => true,   
 		'Salesforce_Default_URL__c' => ''       
 	};       
 	/**       

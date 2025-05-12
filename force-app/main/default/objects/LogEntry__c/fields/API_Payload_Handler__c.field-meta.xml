@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>API_Payload_Handler__c</fullName>
+    <label>API Payload Handler</label>
+    <required>false</required>
+	<externalId>false</externalId>
+	<description>To allow a related list of API Integration Logs to be seen on the API Payload Handler.</description>
+	<type>Lookup</type>
+	<referenceTo>API_Payload_Handler__c</referenceTo>
+	<relationshipName>API</relationshipName>
+</CustomField>

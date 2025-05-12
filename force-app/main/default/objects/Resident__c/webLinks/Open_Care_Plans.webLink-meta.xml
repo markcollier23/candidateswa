@@ -16,5 +16,5 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>https://hcac.healthmetrics.com.au/main.php?module=carePlan&customerCode={!Resident__c.Resident_ID__c}&action=bulkEdit</url>
+    <url>https://hcac.healthmetrics.com.au/main.php?module=carePlan&amp;customerCode={!Resident__c.Resident_ID__c}&amp;action=bulkEdit</url>
 </WebLink>

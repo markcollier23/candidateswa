@@ -16,6 +16,10 @@
                 <field>Last_Name__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Num_Care_Plans__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Room_Number__c</field>
             </layoutItems>

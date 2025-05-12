@@ -6,6 +6,7 @@
     <columns>Last_Name__c</columns>
     <columns>Admission_Date__c</columns>
     <columns>Last_Care_Plan_Evaluation__c</columns>
+    <columns>Number_of_Care_Plans__c</columns>
     <columns>Status__c</columns>
     <columns>This_Care_Plan_Evaluation__c</columns>
     <columns>Next_Care_Plan_Evaluation__c</columns>

@@ -10,6 +10,9 @@
                             <value>CustomButton.Resident__c.Open_Assessments</value>
                         </valueListItems>
                         <valueListItems>
+                            <value>CustomButton.Resident__c.Open_Care_Plans</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>Delete</value>
                         </valueListItems>
                     </valueList>

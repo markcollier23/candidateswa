@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Care_Plans__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://hcac.healthmetrics.com.au/main.php?module=carePlan&amp;customerCode=&quot;&amp;Resident_ID__c&amp;&quot;&amp;action=bulkEdit&quot;, TEXT(Num_Care_Plans__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>No of Care Plans</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

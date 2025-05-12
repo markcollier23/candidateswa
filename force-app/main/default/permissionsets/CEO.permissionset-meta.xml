@@ -167,15 +167,9 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Resident__c.Care_Plan_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Resident__c.Classification__c</field>
         <readable>true</readable>
     </fieldPermissions>
-
     <fieldPermissions>
         <editable>true</editable>
         <field>Resident__c.Last_Care_Plan_Evaluation__c</field>
@@ -204,11 +198,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Resident__c.Resident_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Resident__c.Room_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
